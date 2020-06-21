@@ -26,9 +26,9 @@
 
 .carousel-inner {
   height: 60vh;
-  width: 100vw;
+  object-fit: contain;
 }
 
 .carousel-inner .carousel-item .img-fluid img {
-  height: 200px;
+  object-fit: contain;
 }
