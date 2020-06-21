@@ -1,3 +1,15 @@
+section {
+  height: 50vh;
+}
+
+h2.section-title-heading {
+  color: navy;
+  padding-top: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
 /*============= NAV BAR ================*/
 .navbar-dark {
   background-color: navy;
@@ -93,7 +105,24 @@
   font-weight: 900;
 }
 
+#strapline li {
+  margin-left: -40px;
+  font-size: 16px;
+  list-style: none;
+}
+#strapline li:before {
+  content: '\2713';
+  margin-right: 10px;
+  font-weight: 1000;
+}
+
 #strapline img {
   height: 32vh;
   margin-left: 200px;
+}
+
+/*============= SERVICES ================*/
+
+#services {
+  margin: 100px;
 }
