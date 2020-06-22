@@ -8,6 +8,17 @@ h2.section-title-heading {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8rem;
+  padding-bottom: 2.5rem;
+  position: relative;
+}
+
+h2.section-title-heading::after {
+  content: '';
+  display: block;
+  background: gold;
+  width: 200px;
+  height: 5px;
+  position: absolute;
 }
 
 /*============= NAV BAR ================*/
