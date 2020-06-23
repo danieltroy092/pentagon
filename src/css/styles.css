@@ -1,14 +1,18 @@
+section.darkbg {
+  padding: 30px;
+  background-color: navy;
+}
+
 section {
-  height: 50vh;
+  padding: 30px;
 }
 
 h2.section-title-heading {
-  color: navy;
-  padding-top: 2rem;
+  color: gold;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
   position: relative;
 }
 
@@ -134,6 +138,10 @@ h2.section-title-heading::after {
 
 /*============= SERVICES ================*/
 
-#services {
-  margin: 100px;
+#services .card-body {
+  padding-bottom: 30px;
+}
+
+#services .card-body a {
+  margin-left: 215px;
 }
