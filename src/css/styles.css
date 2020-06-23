@@ -138,10 +138,21 @@ h2.section-title-heading::after {
 
 /*============= SERVICES ================*/
 
-#services .card-body {
-  padding-bottom: 30px;
-}
-
 #services .card-body a {
   margin-left: 215px;
+}
+
+/*============= NEWS ================*/
+
+#newsletter .col-md-6 {
+  background-color: burlywood;
+}
+
+#newsletter .col-md-6 h2 {
+  margin-bottom: 60px;
+}
+
+#assurance .col-md-8,
+.col-md-4 {
+  margin-bottom: 20px;
 }
