@@ -210,3 +210,13 @@ h2.section-title-heading::after {
 #assurance .accordion .card-body {
   background: #e8eeff;
 }
+
+/*============= JUMBOTRON ================*/
+
+h1.display-4 {
+  margin-left: 400px;
+}
+
+P.lead {
+  margin-left: 400px;
+}
