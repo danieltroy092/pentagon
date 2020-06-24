@@ -1,6 +1,6 @@
 section.darkbg {
   padding: 30px;
-  background-color: navy;
+  background-color: #252378;
 }
 
 section {
@@ -27,7 +27,7 @@ h2.section-title-heading::after {
 
 /*============= NAV BAR ================*/
 .navbar-dark {
-  background-color: navy;
+  background-color: #252378;
 }
 
 .navbar-brand img {
@@ -78,7 +78,7 @@ h2.section-title-heading::after {
 }
 
 .btn-primary {
-  background: navy;
+  background: #252378;
   border-color: transparent !important;
   color: #fff;
   font-size: 15px;
@@ -90,7 +90,7 @@ h2.section-title-heading::after {
 }
 
 .btn-primary:hover {
-  background: navy;
+  background: #252378;
   color: gold;
 }
 
@@ -151,6 +151,7 @@ h2.section-title-heading::after {
 #assurance .col-md-8,
 .col-md-4 {
   margin-bottom: 20px;
+  box-shadow: 0 2px 20px 0 rgba(110, 130, 208, 0.3);
 }
 
 /*============= FAQS ================*/
@@ -213,10 +214,122 @@ h2.section-title-heading::after {
 
 /*============= JUMBOTRON ================*/
 
+.jumbotron {
+  height: 25vh;
+  background: #e8eeff;
+  position: relative;
+  overflow: hidden;
+}
+
+.road {
+  height: 85px;
+  width: 500%;
+  display: block;
+  background-image: url(/src/img/car/road.png);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  right: 0px;
+  z-index: 1;
+  background-repeat: repeat;
+  animation: road 40s linear infinite;
+}
+
+@keyframes road {
+  100% {
+    transform: translateX(3400px);
+  }
+}
+
+.skyline {
+  height: 165px;
+  width: 500%;
+  display: block;
+  background-image: url(/src/img/car/skyline.png);
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+  right: 0px;
+  background-repeat: repeat;
+  animation: skyline 50s linear infinite;
+}
+
+@keyframes skyline {
+  100% {
+    transform: translateX(1000px);
+  }
+}
+
+.van {
+  width: 450px;
+  left: 30%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 2;
+}
+
+.van img {
+  width: 100%;
+  animation: van 1s linear infinite;
+}
+
+@keyframes van {
+  100% {
+    transform: translateY(-1px);
+  }
+  50% {
+    transform: translateY(1px);
+  }
+  0% {
+    transform: translateY(-1px);
+  }
+}
+
+.wheel {
+  left: 25%;
+  bottom: 110px;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 2;
+}
+
+.wheel img {
+  width: 55px;
+  height: 55px;
+  animation: wheel 1.5s linear infinite;
+}
+
+.front-wheel {
+  left: -40px;
+  position: absolute;
+}
+
+.back-wheel {
+  left: 175px;
+  position: absolute;
+}
+
+@keyframes wheel {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
 h1.display-4 {
-  margin-left: 400px;
+  position: absolute;
+  width: 520px;
+  height: 90px;
+  color: gold;
+  background: rgba(37, 35, 120, 0.6);
+  margin-left: 900px;
+  margin-top: -70px;
+  z-index: 1000;
 }
 
 P.lead {
-  margin-left: 400px;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 30px;
+  color: gold;
 }
