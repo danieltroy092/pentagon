@@ -322,14 +322,14 @@ h1.display-4 {
   height: 90px;
   color: gold;
   background: rgba(37, 35, 120, 0.6);
-  margin-left: 900px;
+  margin-left: 850px;
   margin-top: -70px;
   z-index: 1000;
 }
 
 P.lead {
   position: absolute;
-  margin-left: 900px;
+  margin-left: 850px;
   margin-top: 30px;
   color: gold;
 }
