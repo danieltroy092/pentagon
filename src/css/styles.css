@@ -486,3 +486,30 @@ P.lead {
   font-weight: 700;
   margin: 5px;
 }
+
+#contact .footer-social-icons {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+#contact .footer-social-icons ul {
+  margin: 0px 10px;
+  padding: 0;
+  text-align: left;
+}
+
+#contact .footer-social-icons ul li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px;
+  border-radius: 100%;
+  background: #252378;
+}
+
+#contact .footer-social-icons ul li a {
+  color: gold;
+  font-size: 25px;
+  display: block;
+}
