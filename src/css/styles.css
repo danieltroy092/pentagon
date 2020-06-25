@@ -333,3 +333,62 @@ P.lead {
   margin-top: 30px;
   color: gold;
 }
+
+/*============= TESTIMONIES ================*/
+
+#testimonies {
+  height: 50vh;
+  background: #252378;
+  padding: 50px 0;
+  position: relative;
+  margin: -50px;
+}
+
+.carousel-inner {
+  left: -200px;
+  width: 1000px;
+  align-self: center;
+  justify-content: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: transparent;
+}
+
+.img-area {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.img-area img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: static;
+  padding-bottom: 10px;
+  padding-top: 0;
+}
+
+.carousel-caption h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color: gold;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.carousel-indicators {
+  bottom: 100px;
+}
