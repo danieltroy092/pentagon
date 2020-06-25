@@ -513,3 +513,8 @@ P.lead {
   font-size: 25px;
   display: block;
 }
+
+#contact .col-md-4 iframe {
+  padding-right: 20px;
+  margin: 5px 0px 0px 0px;
+}
