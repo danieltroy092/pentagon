@@ -151,7 +151,7 @@ h2.section-title-heading::after {
 /*============= ASSURANCE ================*/
 
 #assurance .col-md-8,
-.col-md-4 {
+#assurance .col-md-4 {
   margin-bottom: 20px;
   box-shadow: 0 2px 20px 0 rgba(110, 130, 208, 0.3);
 }
@@ -227,10 +227,13 @@ h2.section-title-heading::after {
 }
 
 #testimonies .carousel-inner {
+  padding: 20px;
+  height: 37vh;
   left: -200px;
   width: 1000px;
   align-self: center;
   justify-content: center;
+  box-shadow: 0 2px 20px 0 rgba(110, 130, 208, 0.3);
 }
 
 .carousel-control-prev,
@@ -282,7 +285,7 @@ h2.section-title-heading::after {
 #testimonies .carousel-caption h3 {
   font-size: 26px;
   margin-bottom: 15px;
-  margin-top: 25px;
+  margin-top: 10px;
   font-weight: 700;
   color: gold;
 }
@@ -294,10 +297,6 @@ h2.section-title-heading::after {
   width: 80%;
   font-weight: 600;
   margin-bottom: 10px;
-}
-
-#testimonies .carousel-indicators {
-  bottom: 60px;
 }
 
 #testimonies .carousel-indicators li {
@@ -316,6 +315,7 @@ h2.section-title-heading::after {
   background: #e8eeff;
   position: relative;
   overflow: hidden;
+  margin: 0;
 }
 
 .road {
@@ -429,4 +429,23 @@ P.lead {
   margin-left: 850px;
   margin-top: 30px;
   color: gold;
+}
+
+/*============= CONTACT US ================*/
+
+#contact {
+  height: 50vh;
+}
+
+#contact .col-md-6 .form-group,
+#contact .col-md-12 .form-group {
+  margin: 0px -5px 0px -5px;
+}
+
+#contact .col-md-6 .form-group input {
+  margin: 10px 0px 20px 0px;
+}
+
+#contact .col-md-12 .form-group input {
+  margin: 0px 0px 20px 0px;
 }
