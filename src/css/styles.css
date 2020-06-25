@@ -223,7 +223,7 @@ h2.section-title-heading::after {
   height: 50vh;
   padding: 50px 0;
   position: relative;
-  margin: 0px;
+  margin: -80px 0px 50px 0px;
 }
 
 #testimonies .carousel-inner {
@@ -297,7 +297,7 @@ h2.section-title-heading::after {
 }
 
 #testimonies .carousel-indicators {
-  bottom: 80px;
+  bottom: 60px;
 }
 
 #testimonies .carousel-indicators li {
