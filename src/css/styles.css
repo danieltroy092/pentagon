@@ -449,3 +449,20 @@ P.lead {
 #contact .col-md-12 .form-group input {
   margin: 0px 0px 20px 0px;
 }
+
+.btn-outline-warning {
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 8px 20px !important;
+  width: 200px;
+  text-align: center;
+  margin: 20px 15px;
+  margin-left: 400px;
+}
+
+.btn-outline-warning:hover {
+  background: gold;
+  color: #252378;
+  font-weight: 500;
+}
