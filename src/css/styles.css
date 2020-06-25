@@ -434,7 +434,13 @@ P.lead {
 /*============= CONTACT US ================*/
 
 #contact {
-  height: 50vh;
+  height: 60vh;
+  padding: 50px;
+}
+
+#contact p {
+  color: gold;
+  text-align: left;
 }
 
 #contact .col-md-6 .form-group,
@@ -450,7 +456,7 @@ P.lead {
   margin: 0px 0px 20px 0px;
 }
 
-.btn-outline-warning {
+#contact .btn-outline-warning {
   font-size: 15px;
   font-weight: 500;
   border-radius: 10px;
@@ -461,8 +467,22 @@ P.lead {
   margin-left: 400px;
 }
 
-.btn-outline-warning:hover {
+#contact .btn-outline-warning:hover {
   background: gold;
   color: #252378;
   font-weight: 500;
+}
+
+#contact .contact-item {
+  color: gold;
+}
+
+#contact .contact-item p {
+  font-weight: 200;
+}
+
+#contact .contact-item .icon i span {
+  font-family: sans-serif;
+  font-weight: 700;
+  margin: 5px;
 }
