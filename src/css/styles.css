@@ -1,6 +1,7 @@
 section.darkbg {
   padding: 30px;
   background-color: #252378;
+  box-shadow: 0 2px 20px 0 rgba(110, 130, 208, 0.3);
 }
 
 section {
@@ -338,10 +339,9 @@ P.lead {
 
 #testimonies {
   height: 50vh;
-  background: #252378;
   padding: 50px 0;
   position: relative;
-  margin: -50px;
+  margin: -50px 0px 100px 50px; /*trbl*/
 }
 
 .carousel-inner {
@@ -356,11 +356,33 @@ P.lead {
   background: transparent;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 40px;
+  color: #252378;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: #252378;
+}
+
 .img-area {
   width: 150px;
   height: 150px;
   margin: auto;
-  border: 2px solid white;
+  border: 4px solid #252378;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -379,16 +401,19 @@ P.lead {
   font-size: 26px;
   margin-bottom: 15px;
   margin-top: 25px;
+  font-weight: 700;
   color: gold;
 }
 
 .carousel-caption p {
   font-size: 18px;
+  color: #252378;
   margin: auto;
   width: 80%;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
 .carousel-indicators {
-  bottom: 100px;
+  bottom: 200px;
 }
