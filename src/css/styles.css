@@ -1,7 +1,6 @@
 section.darkbg {
   padding: 30px;
   background-color: #252378;
-  box-shadow: 0 2px 20px 0 rgba(110, 130, 208, 0.3);
 }
 
 section {
@@ -434,7 +433,7 @@ P.lead {
 /*============= CONTACT US ================*/
 
 #contact {
-  height: 60vh;
+  height: 55vh;
   padding: 50px;
 }
 
@@ -517,4 +516,29 @@ P.lead {
 #contact .col-md-4 iframe {
   padding-right: 20px;
   margin: 5px 0px 0px 0px;
+}
+
+/*=================== FOOTER =====================*/
+
+hr.light-100 {
+  border-top: 0.5px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+footer .col-12 {
+  padding: 0%;
+  margin: 0;
+}
+
+footer h5 {
+  text-align: center;
+  color: #d5d5d5;
+}
+
+footer {
+  background-color: #252378;
+  padding: 15px;
+  margin: 0;
 }
