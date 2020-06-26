@@ -56,7 +56,12 @@ h2.section-title-heading::after {
 /*============= CAROUSEL ================*/
 
 .carousel-inner {
-  height: 45vh;
+  height: 40vh;
+}
+
+.carousel-inner img {
+  width: auto;
+  height: auto;
 }
 
 .carousel-caption {
