@@ -1,3 +1,9 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 section.darkbg {
   padding: 30px;
   background-color: #252378;
@@ -537,7 +543,7 @@ footer .col-12 {
   margin: 0;
 }
 
-footer h5 {
+footer h6 {
   text-align: center;
   color: gold;
 }
