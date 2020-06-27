@@ -31,9 +31,26 @@ h2.section-title-heading::after {
   position: absolute;
 }
 
-/*============= NAV BAR ================*/
+/*============ NAVBAR TOP ================*/
 .navbar-dark {
   background-color: #252378;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: gold;
+}
+
+/*========== NAVBAR BOTTOM =============*/
+
+.navbar-light .navbar-nav .nav-item .nav-link,
+.navbar-light .navbar-nav .nav-item a {
+  color: #252378;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item a:hover {
+  background-color: #252378;
+  color: #fff;
 }
 
 .navbar-brand img {
