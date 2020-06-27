@@ -61,7 +61,7 @@ h2.section-title-heading::after {
   width: 100%;
   z-index: 10;
   max-width: 100%;
-  background: rgba(37, 35, 120, 0.4);
+  /* background: rgba(37, 35, 120, 0.4); */
 }
 
 .navbar-brand img {
@@ -124,7 +124,7 @@ h2.section-title-heading::after {
 
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
-  background: rgba(37, 35, 120, 0.4);
+  background: rgba(0, 0, 0, 0.3);
 }
 .dropdown-submenu {
   position: relative;
@@ -201,11 +201,7 @@ h2.section-title-heading::after {
   left: 0;
   right: 0;
   background: black;
-  opacity: 0.1;
-}
-
-.ccd {
-  background: rgba(0, 0, 0, 0.4);
+  opacity: 0.4;
 }
 
 /*============= STRAPLINE ================*/
