@@ -11,7 +11,6 @@ section.darkbg {
 
 section {
   padding: 30px;
-  /*box-shadow: 0 2px 20px 0 rgba(110, 130, 208, 0.3);*/
 }
 
 h2.section-title-heading {
@@ -63,11 +62,6 @@ h2.section-title-heading::after {
 
 .carousel-inner {
   height: 40vh;
-}
-
-.carousel-inner img {
-  width: auto;
-  height: auto;
 }
 
 .carousel-caption {
@@ -233,7 +227,7 @@ h2.section-title-heading::after {
   height: 50vh;
   padding: 50px 0;
   position: relative;
-  margin: -80px 0px 50px 0px;
+  margin: -80px 0px 90px 0px;
 }
 
 #testimonies .carousel-inner {
@@ -325,7 +319,7 @@ h2.section-title-heading::after {
   background: #e8eeff;
   position: relative;
   overflow: hidden;
-  margin: 0;
+  margin: -10px 0px 0px 0px;
 }
 
 .road {
@@ -349,7 +343,7 @@ h2.section-title-heading::after {
 }
 
 .skyline {
-  height: 165px;
+  height: 200px;
   width: 500%;
   display: block;
   background-image: url(/src/img/car/skyline.png);
@@ -408,12 +402,12 @@ h2.section-title-heading::after {
 }
 
 .front-wheel {
-  left: -40px;
+  left: -31px;
   position: absolute;
 }
 
 .back-wheel {
-  left: 175px;
+  left: 186px;
   position: absolute;
 }
 
@@ -444,7 +438,7 @@ P.lead {
 /*============= CONTACT US ================*/
 
 #contact {
-  height: 55vh;
+  height: 47vh;
   padding: 50px;
 }
 
@@ -550,6 +544,6 @@ footer h6 {
 
 footer {
   background-color: #252378;
-  padding: 15px;
+  padding: 10px;
   margin: 0;
 }
