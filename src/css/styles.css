@@ -18,7 +18,7 @@ section {
 }
 
 h2.section-title-heading {
-  color: gold;
+  color: #252378;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8rem;
@@ -29,7 +29,7 @@ h2.section-title-heading {
 h2.section-title-heading::after {
   content: '';
   display: block;
-  background: gold;
+  background: #252378;
   width: 200px;
   height: 5px;
   position: absolute;
@@ -237,30 +237,138 @@ h2.section-title-heading::after {
   margin-left: 14rem;
 }
 
-/*============= STRAPLINE ================*/
-#strapline {
-  margin: 20px 0px 0px 0px;
+/*============= PROCESS ================*/
+#process {
+  height: auto;
 }
 
-#strapline h1 {
+#process h2 {
+  color: gold;
   font-size: 35px;
   font-weight: 900;
 }
 
-#strapline li {
-  margin-left: -40px;
-  font-size: 16px;
-  list-style: none;
+#process h2.section-title-heading::after {
+  content: '';
+  display: block;
+  background: gold;
+  width: 250px;
+  height: 5px;
+  position: absolute;
 }
-#strapline li:before {
-  content: '\2713';
-  margin-right: 10px;
+
+#process .card-deck {
+  margin: 20px;
+}
+
+#process .card img {
+  margin-top: 80px;
+  margin-left: 150px;
+  height: 7rem;
+  width: 7rem;
+}
+
+#process .card {
+  height: 30rem;
+  width: 20rem;
+  padding: 10px;
+  margin: 20px 40px !important;
+}
+#process .card-body {
+  margin-top: 10px;
+}
+
+#process .card-body .card-title span {
+  font-size: 25px;
   font-weight: 1000;
 }
 
-#strapline img {
-  height: 32vh;
-  margin-left: 200px;
+#process .card-body:before {
+  content: '';
+  height: 85px;
+  width: 85px;
+  position: absolute;
+  background: #fff;
+  z-index: 1000;
+  transform: rotate(-45deg);
+  left: 350px;
+  top: 180px;
+  box-shadow: 20px 20px 30px -10px rgba(255, 215, 0, 0.5);
+}
+
+#process .step-one {
+  animation: animate-one 2s linear infinite;
+}
+
+@keyframes animate-one {
+  0% {
+    box-shadow: 0 0 0 15px rgba(255, 215, 0, 0.5);
+  }
+  20% {
+    box-shadow: 0 0 0 15px rgba(255, 215, 0, 0.5);
+  }
+  40% {
+    box-shadow: 0 0 0 0px rgba(24, 46, 252, 0);
+  }
+  60% {
+    box-shadow: 0 0 0 0px rgba(24, 46, 252, 0);
+  }
+  80% {
+    box-shadow: 0 0 0 0px rgba(24, 46, 252, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(24, 46, 252, 0);
+  }
+}
+
+#process .step-two {
+  animation: animate-two 2s linear infinite;
+}
+
+@keyframes animate-two {
+  0% {
+    box-shadow: 0 0 0 0 rgba(24, 46, 252, 0);
+  }
+  20% {
+    box-shadow: 0 0 0 10px rgba(24, 46, 252, 0);
+  }
+  40% {
+    box-shadow: 0 0 0 15px rgba(255, 215, 0, 0.5);
+  }
+  60% {
+    box-shadow: 0 0 0 15px rgba(255, 215, 0, 0.5);
+  }
+  80% {
+    box-shadow: 0 0 0 10px rgba(24, 46, 252, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(24, 46, 252, 0);
+  }
+}
+
+#process .step-three {
+  animation: animate-three 2s linear infinite;
+}
+
+@keyframes animate-three {
+  0% {
+    box-shadow: 0 0 0 0 rgba(24, 46, 252, 0);
+  }
+  20% {
+    box-shadow: 0 0 0 10 rgba(24, 46, 252, 0);
+  }
+  40% {
+    box-shadow: 0 0 0 10 rgba(24, 46, 252, 0);
+  }
+  60% {
+    box-shadow: 0 0 0 0 rgba(24, 46, 252, 0);
+  }
+  80% {
+    box-shadow: 0 0 0 15px rgba(255, 215, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(255, 215, 0, 0.5);
+  }
 }
 
 /*============= ASSURANCE ================*/
@@ -277,31 +385,31 @@ h2.section-title-heading::after {
 
 /*============= FAQS ================*/
 
-.card,
-.card-header {
+#assurance .card,
+#assurance .card-header {
   background-color: transparent !important;
   border: none !important;
   padding: 0 !important;
   margin-bottom: 15px;
 }
 
-.card {
+#assurance .card {
   box-shadow: 0 2px 20px 0 rgba(110, 130, 208, 0.3);
 }
 
-.btn-link {
+#assurance .btn-link {
   width: 100%;
   height: 60px;
   text-align: left;
   text-decoration: none;
 }
 
-.btn-link h6 {
+#assurance .btn-link h6 {
   color: black;
   font-weight: 600;
 }
 
-.btn-link:after {
+#assurance .btn-link:after {
   content: '\2212';
   width: 35px;
   font-size: 25px;
@@ -313,16 +421,16 @@ h2.section-title-heading::after {
   background-color: #e8eeff;
 }
 
-.btn-link.collapsed:after {
+#assurance .btn-link.collapsed:after {
   content: '\002B';
 }
 
-.btn-link:before {
+#assurance .btn-link:before {
   content: '';
   height: 25px;
   width: 25px;
   position: absolute;
-  background: white;
+  background: #fff;
   z-index: 1;
   transform: rotate(45deg);
   left: 30px;
