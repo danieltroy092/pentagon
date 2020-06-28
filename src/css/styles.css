@@ -9,6 +9,10 @@ section.darkbg {
   background-color: #252378;
 }
 
+.hide {
+  display: none;
+}
+
 section {
   padding: 30px;
 }
@@ -61,7 +65,6 @@ h2.section-title-heading::after {
   width: 100%;
   z-index: 10;
   max-width: 100%;
-  /* background: rgba(37, 35, 120, 0.4); */
 }
 
 .navbar-brand img {
@@ -124,7 +127,7 @@ h2.section-title-heading::after {
 
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.4);
 }
 .dropdown-submenu {
   position: relative;
@@ -144,7 +147,7 @@ h2.section-title-heading::after {
 /*============= CAROUSEL ================*/
 
 .carousel-item {
-  height: 70vh;
+  height: 85vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: contain;
@@ -157,7 +160,7 @@ h2.section-title-heading::after {
 }
 
 .carousel-caption {
-  margin-bottom: 10%;
+  margin-bottom: 15%;
   padding: 20px 50px;
 }
 
@@ -204,6 +207,36 @@ h2.section-title-heading::after {
   opacity: 0.4;
 }
 
+/*============= SERVICES ================*/
+
+#services {
+  height: 30vh;
+}
+
+#services .card-body {
+  background-color: white;
+}
+
+#services .card {
+  width: 100%;
+  transform: translateY(-50%);
+  box-shadow: 0 2px 20px 0 rgba(110, 130, 208, 0.7);
+}
+
+#services .card img {
+  height: 100%;
+  width: 100%;
+}
+
+#services .card .card-body {
+  height: auto;
+  width: auto;
+}
+
+#services .card-body a {
+  margin-left: 14rem;
+}
+
 /*============= STRAPLINE ================*/
 #strapline {
   margin: 20px 0px 0px 0px;
@@ -228,16 +261,6 @@ h2.section-title-heading::after {
 #strapline img {
   height: 32vh;
   margin-left: 200px;
-}
-
-/*============= SERVICES ================*/
-
-#services .card-body {
-  background-color: white;
-}
-
-#services .card-body a {
-  margin-left: 215px;
 }
 
 /*============= ASSURANCE ================*/
@@ -309,6 +332,7 @@ h2.section-title-heading::after {
 #assurance .accordion .card-body {
   background: #e8eeff;
 }
+
 /*============= TESTIMONIES ================*/
 
 #testimonies {
@@ -634,4 +658,12 @@ footer {
   background-color: #252378;
   padding: 10px;
   margin: 0;
+}
+
+/*=================== MEDIA QUERIES ==========================*/
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1500px;
+  }
 }
