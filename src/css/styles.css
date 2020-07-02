@@ -542,3 +542,12 @@ P.lead span {
   margin-top: -13px;
   display: block;
 }
+
+/*============= CONTACT ================*/
+
+#contact {
+  height: 50vh;
+  background-image: url(/src/img/contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
