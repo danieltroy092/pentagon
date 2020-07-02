@@ -577,7 +577,7 @@ P.lead span {
 
 #contact .btn-outline-warning {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 800;
   border-radius: 10px;
   padding: 8px 10px !important;
   width: 200px;
@@ -590,5 +590,5 @@ P.lead span {
 #contact .btn-outline-warning:hover {
   background: gold;
   color: #252378;
-  font-weight: 500;
+  font-weight: 800;
 }
