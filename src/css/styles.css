@@ -546,8 +546,47 @@ P.lead span {
 /*============= CONTACT ================*/
 
 #contact {
-  height: 50vh;
+  height: 55vh;
   background-image: url(/src/img/contact.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#contact h1 {
+  margin-left: 15px;
+}
+
+#contact .contact-form {
+  margin-top: -20px;
+  padding: 0px 20px;
+}
+
+#contact .col-md-6 .form-group,
+#contact .col-md-12 .form-group {
+  margin: 0px -5px 0px -5px;
+}
+
+#contact .col-md-6 .form-group input {
+  margin: 5px 0px 15px 0px;
+}
+
+#contact .col-md-12 .form-group input {
+  margin: 0px 0px 15px 0px;
+}
+
+#contact .btn-outline-warning {
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 8px 20px !important;
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+#contact .btn-outline-warning:hover {
+  background: gold;
+  color: #252378;
+  font-weight: 500;
 }
