@@ -426,11 +426,119 @@ P.lead span {
 
 /*============= TESTIMONIES ================*/
 
+/*============= TESTIMONIES ================*/
+
 #testimonies {
-  height: 50vh;
+  padding: 30px 80px;
+  height: 45vh;
 }
 
 #testimonies h1 {
   margin: 0px 0px -20px 50px;
-  color: #000;
+  color: #051643;
+}
+
+#testimonies .testi-item {
+  margin-top: 10px;
+  height: 25vh;
+  border: 2px dashed #051643;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(5, 22, 67, 1);
+}
+
+#testimonies .client-info {
+  position: relative;
+  min-height: 60px;
+  top: 10px;
+  left: 15px;
+}
+
+#testimonies .client-info h5 {
+  font-size: 1.5rem;
+  font-weight: 1000;
+  margin: 0;
+  line-height: 3rem;
+  color: orange;
+}
+
+#testimonies .client-img {
+  height: 13vh;
+  width: 7vw;
+  border: 3px solid orange;
+  border-radius: 50%;
+  position: absolute;
+  left: 15px;
+  top: 30px;
+}
+
+#testimonies .client-info p {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  color: #fff;
+  font-weight: 400;
+  margin: -10px 0 10px;
+  font-style: italic;
+}
+
+#testimonies .client-info p .fa-quote-left {
+  margin-right: 3px;
+  font-size: 0.9rem;
+}
+
+#testimonies .client-info p .fa-quote-right {
+  margin-left: 3px;
+  font-size: 0.9rem;
+}
+
+#testimonies .client-info .stars {
+  margin: 0 0 20px;
+}
+
+#testimonies .client-info .stars li {
+  display: inline-block;
+  margin: 0 1px;
+}
+
+#testimonies .client-info .stars li i {
+  font-size: 13px;
+  color: gold;
+}
+
+#testimonies .owl-carousel .owl-nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#testimonies .owl-carousel .owl-nav button.owl-next:focus,
+#testimonies .owl-carousel .owl-nav button.owl-prev:focus {
+  outline: none;
+}
+
+#testimonies .owl-carousel .owl-nav button.owl-next,
+#testimonies .owl-carousel .owl-nav button.owl-prev {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin: 0 10px;
+  border-radius: 50%;
+  color: gold;
+  font-weight: 500;
+  overflow: hidden;
+  background-color: #051643;
+  transition: all 0.5 ease;
+}
+
+#testimonies .owl-carousel .owl-nav button.owl-next:hover,
+#testimonies .owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: #fff;
+  color: #051643;
+  border: 1px solid #051643;
+}
+
+#testimonies .owl-carousel .owl-nav button.owl-next span,
+#testimonies .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 40px;
+  margin-top: -13px;
+  display: block;
 }
