@@ -150,7 +150,7 @@ h1.section-title-heading {
 /*============= CAROUSEL ================*/
 
 .carousel-item {
-  height: 85vh;
+  height: 55vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: contain;
@@ -163,7 +163,7 @@ h1.section-title-heading {
 }
 
 .carousel-caption {
-  margin-bottom: 15%;
+  margin-bottom: 5%;
   padding: 20px 50px;
 }
 
@@ -218,8 +218,9 @@ h1.section-title-heading {
   margin: 0px 0px -20px 50px;
 }
 
-#welcome h2 {
-  margin-bottom: 1.5rem;
+#welcome h3.welcome-text {
+  color: navy;
+  margin-bottom: 1rem;
 }
 
 #welcome .col-md-7 {
@@ -228,13 +229,13 @@ h1.section-title-heading {
 }
 
 #welcome img {
-  margin: 8px 0px 20px 0px;
-  height: 50vh;
-  width: 40vw;
+  margin: 8px 0px 20px -200px;
+  height: 500px;
+  width: 670px;
 }
 
 #welcome p {
-  font-size: 1.7rem;
+  font-size: 18px;
 }
 /*============= SERVICES ================*/
 
