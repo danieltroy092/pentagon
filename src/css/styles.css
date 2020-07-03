@@ -592,3 +592,9 @@ P.lead span {
   color: #252378;
   font-weight: 800;
 }
+
+/*============= FAQS ================*/
+
+#faqs {
+  height: 50vh;
+}
