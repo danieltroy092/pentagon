@@ -671,6 +671,9 @@ P.lead span {
 /*============= FOOTER ================*/
 footer {
   height: 30vh;
+  background-color: #232b2b;
+  padding: 15px;
+  margin: 0;
 }
 
 hr.light-100 {
@@ -685,13 +688,11 @@ footer .col-12 {
   margin: 0;
 }
 
-p.footer-text {
+footer h6 {
   color: #fff;
-  font-size: 15px;
 }
 
-footer {
-  background-color: #252378;
-  padding: 10px;
-  margin: 0;
+p.footer-text {
+  color: #fff;
+  font-size: 14px;
 }
