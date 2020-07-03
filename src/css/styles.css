@@ -77,9 +77,6 @@ h1.section-title-heading {
   height: 3.5rem;
 }
 
-.navbar-light .navbar-brand {
-}
-
 .navbar-light h6 {
   display: inline-block;
   color: #ffffff;
@@ -211,10 +208,6 @@ h1.section-title-heading {
   right: 0;
   background: black;
   opacity: 0.4;
-}
-
-.container {
-  border: 2px solid black;
 }
 
 /*============= WELCOME ================*/
@@ -604,6 +597,7 @@ P.lead span {
 
 #faqs h1 {
   color: #051643;
+  margin-bottom: -15px;
 }
 
 #faqs .card,
@@ -648,18 +642,6 @@ P.lead span {
   color: gold;
 }
 
-#faqs .btn-link:before {
-  content: '';
-  height: 25px;
-  width: 25px;
-  position: absolute;
-  background: #fff;
-  z-index: 1;
-  transform: rotate(45deg);
-  left: 30px;
-  top: 46px;
-}
-
 #faqs .accordion .card-body {
   background: #e8eeff;
 }
@@ -670,29 +652,102 @@ P.lead span {
 
 /*============= FOOTER ================*/
 footer {
-  height: 30vh;
+  height: 36vh;
   background-color: #232b2b;
-  padding: 15px;
+  padding: 20px;
   margin: 0;
-}
-
-hr.light-100 {
-  border-top: 0.5px solid #d5d5d5;
-  width: 100%;
-  margin-top: 0.8rem;
-  margin-bottom: 1rem;
+  padding: 30px;
 }
 
 footer .col-12 {
   padding: 0%;
-  margin: 0;
+  margin: 20px 0;
 }
 
 footer h6 {
+  color: gold;
+}
+
+p.social-text {
+  font-size: 14px;
   color: #fff;
 }
 
-p.footer-text {
+footer .contact-item {
+  color: gold;
+  margin-left: 5px;
+}
+
+footer .contact-item p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+}
+
+footer .contact-item .icon i span {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin: 5px;
+}
+
+footer .quick-links ul {
+  margin-left: 10px;
+  list-style: none;
   color: #fff;
   font-size: 14px;
+  line-height: 26px;
+}
+
+footer .quick-links ul li:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+footer .col-md-4 iframe {
+  margin-top: 5px;
+}
+
+p.footer-text span {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+p.footer-text {
+  color: gold;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+footer .footer-social-icons {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+footer .footer-social-icons ul {
+  margin: 0px 10px;
+  padding: 0;
+  text-align: right;
+}
+
+footer .footer-social-icons ul li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px;
+  border-radius: 100%;
+  padding: 0;
+  margin: 0px 8px;
+}
+
+footer .footer-social-icons ul li a {
+  color: gold;
+  font-size: 20px;
+  display: block;
+}
+
+footer .footer-social-icons ul li a i:hover {
+  cursor: pointer !important;
 }
