@@ -596,5 +596,74 @@ P.lead span {
 /*============= FAQS ================*/
 
 #faqs {
-  height: 50vh;
+  height: auto;
+  background: url(../img/faqs.png);
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+}
+
+#faqs h1 {
+  color: #051643;
+}
+
+#faqs .card,
+#faqs .card-header {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin-bottom: 0px;
+}
+
+#faqs .card {
+  box-shadow: 0 2px 20px 0 rgba(5, 22, 67, 0.3);
+}
+
+#faqs .btn-link {
+  width: 100%;
+  height: 60px;
+  text-align: left;
+  text-decoration: none;
+}
+
+#faqs .btn-link h6 {
+  color: #051643;
+  font-weight: 600;
+}
+
+#faqs .btn-link:after {
+  content: '\2212';
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  right: 15px;
+  top: 11px;
+  position: absolute;
+  color: gold;
+  background-color: #051643;
+}
+
+#faqs .btn-link.collapsed:after {
+  content: '\002B';
+  color: gold;
+}
+
+#faqs .btn-link:before {
+  content: '';
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  background: #fff;
+  z-index: 1;
+  transform: rotate(45deg);
+  left: 30px;
+  top: 46px;
+}
+
+#faqs .accordion .card-body {
+  background: #e8eeff;
+}
+
+#faqs .accordion .card-body p {
+  font-size: 16px;
 }
