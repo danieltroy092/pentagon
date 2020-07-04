@@ -50,6 +50,12 @@ h1.section-title-heading {
   color: gold;
 }
 
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  background-color: gold;
+  color: #051643;
+  transition: ease-out 0.7s;
+}
+
 .navbar-dark ul li {
   padding: 0.3rem;
 }
