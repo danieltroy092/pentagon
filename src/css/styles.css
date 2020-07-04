@@ -15,7 +15,7 @@ h2 {
 }
 
 section .container {
-  padding: 30px 10px;
+  padding: 10px 10px;
 }
 
 section.darkbg {
@@ -46,6 +46,7 @@ h1.section-title-heading {
 }
 
 .navbar-dark .navbar-nav .nav-item .nav-link {
+  font-size: 13px;
   color: gold;
 }
 
@@ -66,7 +67,7 @@ h1.section-title-heading {
 
 .navbar-light {
   position: absolute;
-  margin: 0;
+  margin: 50px 0 0 0;
   padding: 0;
   width: 100%;
   z-index: 10;
@@ -99,7 +100,7 @@ h1.section-title-heading {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  margin-top: 25px;
+  margin: 0;
   color: #fff;
 }
 
@@ -150,7 +151,7 @@ h1.section-title-heading {
 /*============= CAROUSEL ================*/
 
 .carousel-item {
-  height: 55vh;
+  height: 60vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: contain;
