@@ -816,7 +816,8 @@ footer .footer-social-icons ul li a i:hover {
   cursor: pointer !important;
 }
 
-@media (max-width: 576px) {
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
   /*============ TOP NAVBAR ==============*/
   /*===========BOTTOM NAVBAR =============*/
   /*============= CAROUSEL ===============*/
@@ -830,7 +831,8 @@ footer .footer-social-icons ul li a i:hover {
   /*============= FOOTER =================*/
 }
 
-@media (max-width: 768px) {
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
   /*============ TOP NAVBAR ==============*/
   /*===========BOTTOM NAVBAR =============*/
   /*============= CAROUSEL ===============*/
@@ -844,7 +846,8 @@ footer .footer-social-icons ul li a i:hover {
   /*============= FOOTER =================*/
 }
 
-@media (max-width: 992px) {
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
   /*============ TOP NAVBAR ==============*/
   /*===========BOTTOM NAVBAR =============*/
   /*============= CAROUSEL ===============*/
@@ -858,7 +861,8 @@ footer .footer-social-icons ul li a i:hover {
   /*============= FOOTER =================*/
 }
 
-@media (max-width: 992px) {
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
   /*============ TOP NAVBAR ==============*/
   /*===========BOTTOM NAVBAR =============*/
   /*============= CAROUSEL ===============*/
