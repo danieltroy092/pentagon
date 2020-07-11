@@ -431,16 +431,16 @@ h1.section-title-heading {
   width: 400px;
   height: 210px;
   left: 20%;
-  bottom: 10px;
-  transform: translateX(-50%);
+  bottom: 60px;
+  transform: translateX(-10%);
   position: absolute;
   z-index: 2;
 }
 
 .wheels {
-  left: 13%;
-  bottom: 26%;
-  transform: translateX(-50%);
+  left: 20%;
+  bottom: 34%;
+  transform: translateX(-60%);
   position: absolute;
   z-index: 5;
 }
@@ -452,13 +452,13 @@ h1.section-title-heading {
 }
 
 .front-wheel {
-  left: 12px;
+  left: 40px;
   position: absolute;
 }
 
 .back-wheel {
   position: absolute;
-  left: 202px;
+  left: 230px;
 }
 
 @keyframes wheel {
@@ -470,7 +470,7 @@ h1.section-title-heading {
 P.lead {
   color: #fff;
   position: absolute;
-  margin-left: 600px;
+  margin-left: 800px;
   margin-top: 225px;
   font-size: 15px;
 }
@@ -485,121 +485,119 @@ P.lead span {
 
 /*============= TESTIMONIES ================*/
 
-#testimonies {
-  padding: 30px 80px;
-  height: 45vh;
+#testimonials {
+  padding: 0px 0px 50px 0px;
 }
 
-#testimonies h1 {
-  margin: 0px 0px -20px 50px;
+#testimonials h1 {
   color: #051643;
+  margin-left: 100px;
+  margin-bottom: -20px;
 }
 
-#testimonies .testi-item {
-  margin-top: 10px;
-  height: 25vh;
-  border: 2px dashed #051643;
-  padding: 20px;
-  border-radius: 5px;
-  background-color: rgba(5, 22, 67, 1);
-}
-
-#testimonies .client-info {
+#testimonials .single-testimonial {
+  color: #fff;
   position: relative;
-  min-height: 60px;
-  top: 10px;
-  left: 15px;
+  margin: 30px;
 }
 
-#testimonies .client-info h5 {
-  font-size: 1.5rem;
-  font-weight: 1000;
-  margin: 0;
-  line-height: 3rem;
+#testimonials .img-area {
+  border-radius: 50%;
+  height: 150px;
+  left: -20px;
+  margin-top: -75px;
+  position: absolute;
+  top: 50%;
+  width: 150px;
+}
+
+#testimonials .img-area > img {
+  background: linear-gradient(to bottom, orangered, gold);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#testimonials .testi-text {
+  color: #fff;
+  background: #051643;
+  margin-left: 50px;
+  padding: 40px 20px 40px 100px;
+}
+
+#testimonials .testi-text h4 {
   color: orange;
 }
 
-#testimonies .client-img {
-  height: 13vh;
-  width: 7vw;
-  border: 3px solid orange;
-  border-radius: 50%;
-  position: absolute;
-  left: 15px;
-  top: 30px;
+#testimonials .testi-text .stars {
+  margin: 0 0 10px;
 }
 
-#testimonies .client-info p {
-  font-size: 1rem;
-  line-height: 1.8rem;
-  color: #fff;
-  font-weight: 400;
-  margin: -10px 0 10px;
-  font-style: italic;
-}
-
-#testimonies .client-info p .fa-quote-left {
-  margin-right: 3px;
-  font-size: 0.9rem;
-}
-
-#testimonies .client-info p .fa-quote-right {
-  margin-left: 3px;
-  font-size: 0.9rem;
-}
-
-#testimonies .client-info .stars {
-  margin: 0 0 20px;
-}
-
-#testimonies .client-info .stars li {
+#testimonials .testi-text .stars li {
   display: inline-block;
   margin: 0 1px;
 }
 
-#testimonies .client-info .stars li i {
+#testimonials .testi-text .stars li i {
   font-size: 13px;
   color: gold;
 }
 
-#testimonies .owl-carousel .owl-nav {
-  text-align: center;
-  margin-top: 30px;
+#testimonials .testi-text p .fa-quote-left {
+  margin-right: 3px;
+  font-size: 0.9rem;
 }
 
-#testimonies .owl-carousel .owl-nav button.owl-next:focus,
-#testimonies .owl-carousel .owl-nav button.owl-prev:focus {
+#testimonials .testi-text p .fa-quote-right {
+  margin-left: 3px;
+  font-size: 0.9rem;
+}
+
+#testimonials .testi-text p {
+  color: #fff;
+  line-height: 25px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+#testimonials .owl-carousel .owl-nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#testimonials .owl-carousel .owl-nav button.owl-next:focus,
+#testimonials .owl-carousel .owl-nav button.owl-prev:focus {
   outline: none;
 }
 
-#testimonies .owl-carousel .owl-nav button.owl-next,
-#testimonies .owl-carousel .owl-nav button.owl-prev {
-  height: 40px;
-  width: 40px;
+#testimonials .owl-carousel .owl-nav button.owl-next,
+#testimonials .owl-carousel .owl-nav button.owl-prev {
+  height: 45px;
+  width: 45px;
   display: inline-block;
   margin: 0 10px;
   border-radius: 50%;
   color: gold;
-  font-weight: 500;
+  font-weight: 600;
   overflow: hidden;
   background-color: #051643;
   transition: all 0.5 ease;
 }
 
-#testimonies .owl-carousel .owl-nav button.owl-next:hover,
-#testimonies .owl-carousel .owl-nav button.owl-prev:hover {
-  background-color: #fff;
+#testimonials .owl-carousel .owl-nav button.owl-next:hover,
+#testimonials .owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: gold;
   color: #051643;
-  border: 1px solid #051643;
+  border: 2px solid #051643;
 }
 
-#testimonies .owl-carousel .owl-nav button.owl-next span,
-#testimonies .owl-carousel .owl-nav button.owl-prev span {
+#testimonials .owl-carousel .owl-nav button.owl-next span,
+#testimonials .owl-carousel .owl-nav button.owl-prev span {
   font-size: 40px;
   margin-top: -13px;
   display: block;
 }
 
+/*===================== MEDIA QUERIES =============================*/
 /*============= CONTACT ================*/
 
 #contact {
@@ -610,12 +608,12 @@ P.lead span {
 }
 
 #contact h1 {
-  margin-top: -20px;
+  margin-top: 0px;
   margin-left: 15px;
 }
 
 #contact .contact-form {
-  margin-top: -25px;
+  margin-top: -10px;
   padding: 0px 20px;
 }
 
@@ -817,7 +815,7 @@ footer .footer-social-icons ul li a i:hover {
 }
 
 /* Devices under 1199px (xl) */
-@media (max-width: 1199.98px) {
+@media screen and (max-width: 1199.98px) and (min-width: 992px) {
   /*============ TOP NAVBAR ==============*/
   /*===========BOTTOM NAVBAR =============*/
   /*============= CAROUSEL ===============*/
@@ -825,6 +823,8 @@ footer .footer-social-icons ul li a i:hover {
   /*============= SERVICES ===============*/
   /*============== VALUES ================*/
   /*============= PROCESS ================*/
+  /*========== VAN JUMBOTRON =============*/
+
   /*========== TESTIMONIALS ==============*/
   /*============= CONTACT ================*/
   /*============== FAQS ==================*/
@@ -832,7 +832,7 @@ footer .footer-social-icons ul li a i:hover {
 }
 
 /* Devices under 992px (xl) */
-@media (max-width: 991.98px) {
+@media screen and (max-width: 991.98px) and (min-width: 768px) {
   /*============ TOP NAVBAR ==============*/
   /*===========BOTTOM NAVBAR =============*/
   /*============= CAROUSEL ===============*/
@@ -847,7 +847,7 @@ footer .footer-social-icons ul li a i:hover {
 }
 
 /* Devices under 768px (md) */
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) and (min-width: 576px) {
   /*============ TOP NAVBAR ==============*/
   /*===========BOTTOM NAVBAR =============*/
   /*============= CAROUSEL ===============*/
@@ -855,28 +855,13 @@ footer .footer-social-icons ul li a i:hover {
   /*============= SERVICES ===============*/
   /*============== VALUES ================*/
   /*============= PROCESS ================*/
-  /*========== TESTIMONIALS ==============*/
   /*============= CONTACT ================*/
   /*============== FAQS ==================*/
   /*============= FOOTER =================*/
 }
 
 /* Devices under 576px (sm) */
-@media (max-width: 575.98px) {
-  /*============ TOP NAVBAR ==============*/
-  /*===========BOTTOM NAVBAR =============*/
-  /*============= CAROUSEL ===============*/
-  /*============== WELCOME ===============*/
-  /*============= SERVICES ===============*/
-  /*============== VALUES ================*/
-  /*============= PROCESS ================*/
-  /*========== TESTIMONIALS ==============*/
-  /*============= CONTACT ================*/
-  /*============== FAQS ==================*/
-  /*============= FOOTER =================*/
-}
-
-@media (max-width: 1200px) {
+@media screen and (max-width: 575.98px) {
   /*============ TOP NAVBAR ==============*/
   /*===========BOTTOM NAVBAR =============*/
   /*============= CAROUSEL ===============*/
