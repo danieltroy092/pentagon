@@ -849,20 +849,19 @@ footer .footer-social-icons ul li a i:hover {
     width: 110px;
   }
   /*============== WELCOME ===============*/
-  
+
   #welcome h3.welcome-text {
     color: navy;
     margin-left: 40px;
     margin-bottom: 1rem;
   }
 
-  
   #welcome img {
     margin: 8px 0px 20px -60px;
     height: 450px;
     width: 520px;
   }
-  
+
   #welcome p {
     font-size: 15px;
     margin-left: 40px;
@@ -872,42 +871,42 @@ footer .footer-social-icons ul li a i:hover {
   #services .card-body {
     background-color: #051643;
   }
-  
+
   #services .card {
     margin-top: -10px;
     width: 100%;
     border: none;
     box-shadow: 0px 2px 20px 0px rgba(110, 130, 208, 0.7);
   }
-  
+
   #services .card .card-body h5 {
     font-size: 18px;
     color: gold;
   }
-  
+
   #services .card .card-body p {
     font-size: 12px;
     color: #fff;
   }
-  
+
   #services .card .card-body a {
     font-size: 13px;
     color: orange;
   }
   /*============== VALUES ================*/
-  
+
   #values img {
     margin-left: -50px;
     height: 8rem;
     width: 8rem;
   }
-  
+
   #values h4 {
     color: navy;
     font-size: 20px;
     font-weight: 600;
   }
-  
+
   #values p {
     font-size: 15px;
   }
@@ -915,43 +914,43 @@ footer .footer-social-icons ul li a i:hover {
   #process {
     height: 80vh;
   }
-  
+
   #process .middle {
     position: absolute;
     top: 30%;
     transform: translate(-50% -50%);
   }
-  
+
   #process .card {
     cursor: pointer;
     width: 290px;
     height: 330px;
   }
-  
+
   #process .card .front img {
     height: 40%;
     width: 50%;
     margin-top: 30%;
   }
-  
+
   #process .card .front h4 {
     margin-top: 10%;
     font-size: 20px;
     color: navy;
     font-weight: 1000;
   }
-  
+
   #process .card .back h4 {
     font-size: 20px;
     font-weight: 1000;
     margin-top: -15px;
   }
-  
+
   #process .back-content {
     padding: 20px;
     color: gold;
   }
-  
+
   #process .back-content p {
     color: #fff;
     font-size: 13px;
@@ -967,7 +966,7 @@ footer .footer-social-icons ul li a i:hover {
     overflow: hidden;
     margin: -10px 0px 0px 0px;
   }
-  
+
   .road {
     height: 65px;
     width: 500%;
@@ -982,11 +981,11 @@ footer .footer-social-icons ul li a i:hover {
     background-repeat: repeat;
     animation: road 40s linear infinite;
   }
-  
+
   .skyline {
     height: 155px;
     width: 500%;
-    display:  block;
+    display: block;
     margin-bottom: 10px;
     background-image: url(/src/img/car/skyline.png);
     position: absolute;
@@ -998,7 +997,7 @@ footer .footer-social-icons ul li a i:hover {
     background-size: contain;
     animation: skyline 50s linear infinite;
   }
-  
+
   .van img {
     width: 400px;
     height: 210px;
@@ -1008,7 +1007,7 @@ footer .footer-social-icons ul li a i:hover {
     position: absolute;
     z-index: 2;
   }
-  
+
   .wheels {
     left: 12%;
     bottom: 28%;
@@ -1016,24 +1015,23 @@ footer .footer-social-icons ul li a i:hover {
     position: absolute;
     z-index: 5;
   }
-  
+
   .wheels img {
     width: 50px;
     height: 50px;
     animation: wheel 1.3s linear infinite;
   }
-  
+
   .front-wheel {
     left: 7px;
     position: absolute;
   }
-  
+
   .back-wheel {
     position: absolute;
     left: 195px;
   }
-  
-  
+
   P.lead {
     color: #fff;
     position: absolute;
@@ -1041,7 +1039,7 @@ footer .footer-social-icons ul li a i:hover {
     margin-top: 205px;
     font-size: 12px;
   }
-  
+
   P.lead span {
     font-weight: 1000;
     font-size: 14px;
@@ -1052,19 +1050,19 @@ footer .footer-social-icons ul li a i:hover {
   #testimonials {
     padding: 50px 0px 50px 0px;
   }
-  
+
   #testimonials h1 {
     color: #051643;
     margin-left: 100px;
     margin-bottom: -20px;
   }
-  
+
   #testimonials .single-testimonial {
     color: #fff;
     position: relative;
     margin: 30px;
   }
-  
+
   #testimonials .img-area {
     border-radius: 50%;
     height: 130px;
@@ -1074,66 +1072,66 @@ footer .footer-social-icons ul li a i:hover {
     position: absolute;
     top: 50%;
   }
-  
+
   #testimonials .img-area > img {
     background: linear-gradient(to bottom, orangered, gold);
     border-radius: 50%;
     padding: 5px;
   }
-  
+
   #testimonials .testi-text {
     color: #fff;
     background: #051643;
     margin-left: 25px;
     padding: 40px 20px 40px 100px;
   }
-  
+
   #testimonials .testi-text h4 {
     font-size: 20px;
     color: orange;
   }
-  
+
   #testimonials .testi-text .stars {
     margin: 0 0 10px;
   }
-  
+
   #testimonials .testi-text .stars li {
     display: inline-block;
     margin: 0 1px;
   }
-  
+
   #testimonials .testi-text .stars li i {
     font-size: 13px;
     color: gold;
   }
-  
+
   #testimonials .testi-text p .fa-quote-left {
     margin-right: 3px;
     font-size: 0.9rem;
   }
-  
+
   #testimonials .testi-text p .fa-quote-right {
     margin-left: 3px;
     font-size: 0.9rem;
   }
-  
+
   #testimonials .testi-text p {
     color: #fff;
     line-height: 22px;
     font-size: 15px;
     font-style: italic;
   }
-  
+
   #testimonials .owl-carousel .owl-nav {
     text-align: center;
     margin-top: 10px;
   }
-  
+
   #testimonials .owl-carousel .owl-nav button.owl-next:focus,
   #testimonials .owl-carousel .owl-nav button.owl-prev:focus {
     outline: none;
   }
-  
+
   #testimonials .owl-carousel .owl-nav button.owl-next,
   #testimonials .owl-carousel .owl-nav button.owl-prev {
     height: 45px;
@@ -1147,14 +1145,14 @@ footer .footer-social-icons ul li a i:hover {
     background-color: #051643;
     transition: all 0.5 ease;
   }
-  
+
   #testimonials .owl-carousel .owl-nav button.owl-next:hover,
   #testimonials .owl-carousel .owl-nav button.owl-prev:hover {
     background-color: gold;
     color: #051643;
     border: 2px solid #051643;
   }
-  
+
   #testimonials .owl-carousel .owl-nav button.owl-next span,
   #testimonials .owl-carousel .owl-nav button.owl-prev span {
     font-size: 40px;
@@ -1162,58 +1160,64 @@ footer .footer-social-icons ul li a i:hover {
     display: block;
   }
   /*============= CONTACT ================*/
-  
-#contact {
-  height: 60vh;
-  background-image: url(/src/img/contact.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-#contact h1 {
-  margin-top: -20px;
-  margin-left: 15px;
-}
+  #contact {
+    height: 70vh;
+    background-image: url(/src/img/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-#contact .contact-form {
-  margin-top: -25px;
-  padding: 0px 20px;
-}
+  #contact h1 {
+    margin-top: -20px;
+    margin-left: 15px;
+  }
 
-#contact .col-md-6 .form-group,
-#contact .col-md-12 .form-group {
-  margin: 0px -5px 0px -5px;
-}
+  #contact .contact-form {
+    margin-top: -25px;
+    padding: 0px 20px;
+  }
 
-#contact .col-md-6 .form-group input {
-  margin: 5px 0px 15px 0px;
-}
+  #contact .col-md-6 .form-group,
+  #contact .col-md-12 .form-group {
+    margin: 0px -5px 0px -5px;
+  }
 
-#contact .col-md-12 .form-group input {
-  margin: 0px 0px 15px 0px;
-}
+  #contact .col-md-6 .form-group input {
+    margin: 5px 0px 15px 0px;
+  }
 
-#contact .btn-outline-warning {
-  font-size: 15px;
-  font-weight: 800;
-  border-radius: 10px;
-  padding: 8px 10px !important;
-  width: 200px;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: -10px;
-  margin-left: 890px;
-}
+  #contact .col-md-12 .form-group input {
+    margin: 0px 0px 15px 0px;
+  }
 
-#contact .btn-outline-warning:hover {
-  background: gold;
-  color: #252378;
-  font-weight: 800;
-}
+  #contact .btn-outline-warning {
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 8px 10px !important;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    margin-left: 890px;
+  }
 
-  /*============== FAQS ==================*/
+  #contact .btn-outline-warning:hover {
+    background: gold;
+    color: #252378;
+    font-weight: 800;
+  }
+
   /*============= FOOTER =================*/
-
+  footer {
+    height: 50vh;
+    background-color: #232b2b;
+    padding: 20px;
+    margin: 0;
+    padding: 30px;
+  }
+}
 /* Devices under 992px (xl) */
 @media screen and (max-width: 991.98px) and (min-width: 768px) {
   /*============ TOP NAVBAR ==============*/
