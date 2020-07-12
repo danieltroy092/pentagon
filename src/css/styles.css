@@ -1223,6 +1223,15 @@ footer .footer-social-icons ul li a i:hover {
   body {
     margin-right: -580px;
   }
+
+  .navbar-brand {
+    margin-left: 200px;
+  }
+
+  .navbar-light .navbar-toggler {
+    margin-right: -300px;
+  }
+
   /*============ TOP NAVBAR ==============*/
   .navbar-dark {
     display: none;
