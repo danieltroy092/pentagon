@@ -1548,33 +1548,10 @@ footer .footer-social-icons ul li a i:hover {
   /*========== TESTIMONIALS ==============*/
   /*============= CONTACT ================*/
   #contact {
-    height: 57vh;
+    height: 60vh;
     background-image: url(/src/img/contact.png);
     background-size: cover;
     background-repeat: no-repeat;
-  }
-
-  #contact h1 {
-    margin-top: -20px;
-    margin-left: 15px;
-  }
-
-  #contact .contact-form {
-    margin-top: -25px;
-    padding: 0px 20px;
-  }
-
-  #contact .col-md-6 .form-group,
-  #contact .col-md-12 .form-group {
-    margin: 0px -5px 0px -5px;
-  }
-
-  #contact .col-md-6 .form-group input {
-    margin: 5px 0px 15px 0px;
-  }
-
-  #contact .col-md-12 .form-group input {
-    margin: 0px 0px 15px 0px;
   }
 
   #contact .btn-outline-warning {
@@ -1588,14 +1565,11 @@ footer .footer-social-icons ul li a i:hover {
     margin-bottom: -10px;
     margin-left: 470px;
   }
-
-  #contact .btn-outline-warning:hover {
-    background: gold;
-    color: #252378;
-    font-weight: 800;
-  }
   /*============== FAQS ==================*/
   /*============= FOOTER =================*/
+  footer {
+    height: 45vh;
+  }
 }
 /* Devices under 768px (md) */
 @media screen and (max-width: 767.98px) and (min-width: 576px) {
