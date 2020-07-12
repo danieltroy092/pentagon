@@ -817,7 +817,7 @@ footer .footer-social-icons ul li a i:hover {
 /* Devices under 1199px (xl) */
 @media screen and (max-width: 1199.98px) and (min-width: 992px) {
   body {
-    margin-right: -45px;
+    margin-right: -120px;
   }
   /*============ TOP NAVBAR ==============*/
   /*===========BOTTOM NAVBAR =============*/
@@ -850,7 +850,8 @@ footer .footer-social-icons ul li a i:hover {
   }
   /*============== WELCOME ===============*/
 
-  #welcome h3.welcome-text {
+  #welcome h3.welcome-text,
+  #welcome h3.welcome-text2 {
     color: navy;
     margin-left: 40px;
     margin-bottom: 1rem;
@@ -1218,13 +1219,150 @@ footer .footer-social-icons ul li a i:hover {
     padding: 30px;
   }
 }
+
 /* Devices under 992px (xl) */
 @media screen and (max-width: 991.98px) and (min-width: 768px) {
+  body {
+    margin-right: -300px;
+  }
   /*============ TOP NAVBAR ==============*/
+  .navbar-dark {
+    display: none;
+  }
   /*===========BOTTOM NAVBAR =============*/
+  .navbar-light {
+    margin: 0;
+  }
+
+  .navbar-toggler {
+    background: yellow;
+  }
   /*============= CAROUSEL ===============*/
+  .carousel-item {
+    height: 60vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-caption {
+    margin-bottom: 5%;
+    padding: 20px 50px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 1000;
+  }
+
+  .carousel-caption h3 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .carousel-caption p {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .btn-primary {
+    background: #051643;
+    border-color: transparent !important;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 8px 20px !important;
+    width: 120px;
+    text-align: center;
+    margin: 10px 15px;
+  }
+
+  .btn-primary:hover {
+    background: #051643;
+    color: gold;
+  }
   /*============== WELCOME ===============*/
+  #welcome h1 {
+    margin: 0px 0px -20px 50px;
+  }
+
+  #welcome h3.welcome-text {
+    font-size: 20px;
+    font-weight: 1000;
+    color: navy;
+    margin-left: 50px;
+    margin-bottom: 1rem;
+  }
+
+  #welcome .col-md-7 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  #welcome img {
+    margin: 15px 0px 20px -150px;
+    height: 390px;
+    width: 480px;
+  }
+
+  #welcome p {
+    font-size: 13px;
+    margin-left: 50px;
+  }
+
+  #welcome h3.welcome-text2 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: navy;
+    margin-left: 50px;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+  }
+
   /*============= SERVICES ===============*/
+  #services .card-body {
+    padding: 10px;
+    background-color: #051643;
+    width: auto;
+  }
+
+  #services .card {
+    height: 350px;
+    width: 250px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0px 2px 20px 0px rgba(110, 130, 208, 0.7);
+  }
+
+  #services .card img {
+    height: 50%;
+    width: auto;
+  }
+
+  #services .card .card-body h5 {
+    font-size: 20px;
+    color: gold;
+  }
+
+  #services .card .card-body p {
+    font-size: 12px;
+    color: #fff;
+  }
+
+  #services .card .card-body a {
+    font-size: 12px;
+    color: orange;
+  }
+
   /*============== VALUES ================*/
   /*============= PROCESS ================*/
   /*========== TESTIMONIALS ==============*/
@@ -1232,7 +1370,6 @@ footer .footer-social-icons ul li a i:hover {
   /*============== FAQS ==================*/
   /*============= FOOTER =================*/
 }
-
 /* Devices under 768px (md) */
 @media screen and (max-width: 767.98px) and (min-width: 576px) {
   /*============ TOP NAVBAR ==============*/
