@@ -1741,19 +1741,21 @@ footer .footer-social-icons ul li a i:hover {
   /*============== VALUES ================*/
 
   #values img {
-    margin-left: -50px;
-    height: 8rem;
-    width: 8rem;
+    height: 7rem;
+    width: 7rem;
+    margin-top: -15px;
   }
 
   #values h4 {
     font-size: 18px;
     color: navy;
     font-weight: 600;
+    margin: 0px 0 5px -20px;
   }
 
   #values p {
-    font-size: 15px;
+    margin-left: -20px;
+    font-size: 14px;
   }
   /*============= PROCESS ================*/
 
@@ -1835,91 +1837,7 @@ footer .footer-social-icons ul li a i:hover {
   /*========== VAN JUMBOTRON =============*/
 
   #message {
-    margin: 0;
-    padding: 0;
-    height: 50vh;
-    background: #fff;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .road {
-    height: 60px;
-    width: 500%;
-    display: block;
-    background-image: url(/src/img/car/road.png);
-    position: absolute;
-    top: 300px;
-    bottom: 0;
-    right: 0;
-    right: 0px;
-    z-index: 1;
-    background-repeat: repeat;
-    animation: road 40s linear infinite;
-  }
-
-  .skyline {
-    height: 190px;
-    width: 500%;
-    display: block;
-    margin-bottom: 50px;
-    background-image: url(/src/img/car/skyline.png);
-    position: absolute;
-    top: 110px;
-    bottom: 0;
-    right: 0;
-    right: 0px;
-    background-repeat: repeat-x;
-    background-size: contain;
-    animation: skyline 50s linear infinite;
-  }
-
-  .van img {
-    width: 400px;
-    height: 210px;
-    left: 25%;
-    bottom: 50px;
-    transform: translateX(-50%);
-    position: absolute;
-    z-index: 2;
-  }
-
-  .wheels {
-    left: 16%;
-    bottom: 32%;
-    transform: translateX(-50%);
-    position: absolute;
-    z-index: 5;
-  }
-
-  .wheels img {
-    width: 50px;
-    height: 50px;
-    animation: wheel 1.3s linear infinite;
-  }
-
-  .front-wheel {
-    left: 17px;
-    position: absolute;
-  }
-
-  .back-wheel {
-    position: absolute;
-    left: 207px;
-  }
-
-  P.lead {
-    color: #fff;
-    position: absolute;
-    margin-left: 600px;
-    margin-top: 230px;
-    font-size: 14px;
-  }
-
-  P.lead span {
-    font-weight: 1000;
-    font-size: 17px;
-    color: gold;
+    display: none;
   }
 
   /*========== TESTIMONIALS ==============*/
