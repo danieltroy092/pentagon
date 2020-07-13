@@ -1900,7 +1900,7 @@ footer .footer-social-icons ul li a i:hover {
 /* Devices under 576px (sm) */
 @media screen and (max-width: 575.98px) {
   body {
-    margin-right: -600px;
+    margin-right: 10px;
   }
 
   .navbar-brand {
@@ -1948,7 +1948,6 @@ footer .footer-social-icons ul li a i:hover {
 
   #welcome p {
     font-size: 13px;
-    padding-right: 490px;
   }
 
   #welcome h3.welcome-text2 {
@@ -1976,15 +1975,15 @@ footer .footer-social-icons ul li a i:hover {
   }
 
   #services .card {
-    height: 330px;
-    width: 240px;
+    height: 340px;
+    width: 330px;
     margin: 10px 0px;
     border: none;
     box-shadow: 0px 2px 20px 0px rgba(110, 130, 208, 0.7);
   }
 
   #services .card img {
-    height: 50%;
+    height: 57%;
     width: auto;
   }
 
@@ -1998,13 +1997,13 @@ footer .footer-social-icons ul li a i:hover {
     font-size: 12px;
     color: #fff;
     text-align: left;
-    padding: 0px 10px;
+    padding: 0px 20px;
   }
 
   #services .card .card-body a {
     font-size: 12px;
     color: orange;
-    margin-left: 140px;
+    margin-left: 220px;
   }
 
   /*============== VALUES ================*/
