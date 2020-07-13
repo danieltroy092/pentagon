@@ -1899,16 +1899,269 @@ footer .footer-social-icons ul li a i:hover {
 
 /* Devices under 576px (sm) */
 @media screen and (max-width: 575.98px) {
+  body {
+    margin-right: -600px;
+  }
+
+  .navbar-brand {
+    margin-top: -50px;
+    margin-left: 50px;
+  }
+
+  .navbar-light .navbar-toggler {
+    margin-top: -50px;
+    margin-right: 50px;
+  }
+
   /*============ TOP NAVBAR ==============*/
+  .navbar-dark {
+    display: none;
+  }
+
   /*===========BOTTOM NAVBAR =============*/
+
+  .navbar-toggler {
+    background: yellow;
+  }
   /*============= CAROUSEL ===============*/
+  .carousel {
+    display: none;
+  }
   /*============== WELCOME ===============*/
+
+  #welcome h1 {
+    margin: 50px 0px -30px 0px;
+  }
+
+  #welcome h3.welcome-text {
+    font-size: 20px;
+    font-weight: 1000;
+    color: navy;
+    margin-bottom: 1rem;
+  }
+
+  #welcome img {
+    margin: 15px 0px;
+    height: 300px;
+    width: 400px;
+  }
+
+  #welcome p {
+    font-size: 13px;
+    padding-right: 490px;
+  }
+
+  #welcome h3.welcome-text2 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: navy;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+  }
+
+  #welcome .col-12 {
+    margin-left: -50px;
+  }
+
   /*============= SERVICES ===============*/
+
+  #services h1 {
+    margin-bottom: -15px;
+  }
+
+  #services .card-body {
+    padding: 10px;
+    background-color: #051643;
+    width: auto;
+  }
+
+  #services .card {
+    height: 330px;
+    width: 240px;
+    margin: 10px 0px;
+    border: none;
+    box-shadow: 0px 2px 20px 0px rgba(110, 130, 208, 0.7);
+  }
+
+  #services .card img {
+    height: 50%;
+    width: auto;
+  }
+
+  #services .card .card-body h5 {
+    font-size: 20px;
+    color: gold;
+    font-weight: 800;
+  }
+
+  #services .card .card-body p {
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+    padding: 0px 10px;
+  }
+
+  #services .card .card-body a {
+    font-size: 12px;
+    color: orange;
+    margin-left: 140px;
+  }
+
   /*============== VALUES ================*/
+
+  #values img {
+    height: 7rem;
+    width: 7rem;
+    margin-top: -15px;
+  }
+
+  #values h4 {
+    font-size: 18px;
+    color: navy;
+    font-weight: 600;
+    margin: 0px 0 5px -20px;
+  }
+
+  #values p {
+    margin-left: -20px;
+    font-size: 14px;
+  }
   /*============= PROCESS ================*/
+
+  #process {
+    display: none;
+  }
+
   /*========== VAN JUMBOTRON =============*/
+
+  #message {
+    display: none;
+  }
+
   /*========== TESTIMONIALS ==============*/
+
+  #testimonials {
+    padding: 30px 200px;
+    margin-left: 100px;
+  }
+
+  #testimonials .item {
+    margin-left: 130px;
+  }
+
+  #testimonials .single-testimonial {
+    padding-right: 50px;
+    padding-top: 25px;
+    width: 400px;
+  }
+
+  #testimonials .img-area {
+    left: 50%;
+    margin-left: -60px;
+    top: 55px;
+  }
+
+  #testimonials .testi-text {
+    margin-top: 40px;
+    padding: 40px 20px 40px 20px;
+  }
+
+  #testimonials .testi-text p {
+    font-size: 15px;
+  }
+
   /*============= CONTACT ================*/
+  #contact {
+    height: 73vh;
+    background-image: url(/src/img/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #contact .btn-outline-warning {
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 8px 10px !important;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    margin-left: 285px;
+  }
   /*============== FAQS ==================*/
+
+  #faqs h6 {
+    font-size: 15px;
+  }
+
   /*============= FOOTER =================*/
+  footer {
+    height: 50vh;
+    background-color: #232b2b;
+    padding: 20px;
+    margin: 0;
+    padding: 30px;
+  }
+
+  footer .col-12 {
+    padding: 0%;
+    margin: 20px 0;
+  }
+
+  footer h6 {
+    color: gold;
+  }
+
+  p.social-text {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  footer .contact-item {
+    color: gold;
+    margin-left: 5px;
+  }
+
+  footer .contact-item p {
+    font-size: 13px;
+    font-weight: 200;
+    color: #fff;
+  }
+
+  footer .contact-item .icon i span {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 5px;
+  }
+
+  footer .quick-links ul {
+    margin-left: 10px;
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  footer .quick-links ul li:hover {
+    color: gold;
+    cursor: pointer;
+  }
+
+  footer .col-md-4 iframe {
+    margin-top: 5px;
+  }
+
+  p.footer-text span {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  p.footer-text {
+    color: gold;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
 }
