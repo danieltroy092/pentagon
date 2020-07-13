@@ -225,7 +225,8 @@ h1.section-title-heading {
   margin: 0px 0px -20px 50px;
 }
 
-#welcome h3.welcome-text {
+#welcome h3.welcome-text,
+#welcome h3.welcome-text2 {
   color: navy;
   margin-bottom: 1rem;
 }
@@ -1661,43 +1662,44 @@ footer .footer-social-icons ul li a i:hover {
   }
   /*============== WELCOME ===============*/
   #welcome h1 {
-    margin: 0px 0px -20px 50px;
+    margin: 0px 0px -20px 0px;
   }
 
   #welcome h3.welcome-text {
     font-size: 20px;
     font-weight: 1000;
     color: navy;
-    margin-left: 50px;
     margin-bottom: 1rem;
   }
 
-  #welcome .col-md-7 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
   #welcome img {
-    margin: 15px 0px 20px -150px;
-    height: 390px;
-    width: 480px;
+    margin: 15px 0px;
+    height: 300px;
+    width: 400px;
   }
 
   #welcome p {
     font-size: 13px;
-    margin-left: 50px;
   }
 
   #welcome h3.welcome-text2 {
     font-size: 20px;
     font-weight: 1000;
     color: navy;
-    margin-left: 50px;
     margin-top: -1rem;
     margin-bottom: 1rem;
   }
 
+  #welcome .col-12 {
+    margin-left: -50px;
+  }
+
   /*============= SERVICES ===============*/
+
+  #services h1 {
+    margin-bottom: -15px;
+  }
+
   #services .card-body {
     padding: 10px;
     background-color: #051643;
@@ -1705,31 +1707,34 @@ footer .footer-social-icons ul li a i:hover {
   }
 
   #services .card {
-    height: 350px;
-    width: 250px;
-    margin-top: 20px;
+    height: 500px;
+    width: 340px;
+    margin: 10px 0px;
     border: none;
     box-shadow: 0px 2px 20px 0px rgba(110, 130, 208, 0.7);
   }
 
   #services .card img {
-    height: 50%;
+    height: 60%;
     width: auto;
   }
 
   #services .card .card-body h5 {
-    font-size: 20px;
+    font-size: 25px;
     color: gold;
+    font-weight: 800;
   }
 
   #services .card .card-body p {
-    font-size: 12px;
+    font-size: 17px;
     color: #fff;
+    text-align: left;
   }
 
   #services .card .card-body a {
-    font-size: 12px;
+    font-size: 17px;
     color: orange;
+    margin-left: 200px;
   }
 
   /*============== VALUES ================*/
