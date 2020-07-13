@@ -1582,18 +1582,365 @@ footer .footer-social-icons ul li a i:hover {
 }
 /* Devices under 768px (md) */
 @media screen and (max-width: 767.98px) and (min-width: 576px) {
+  body {
+    margin-right: -600px;
+  }
+
+  .navbar-brand {
+    margin-left: 200px;
+  }
+
+  .navbar-light .navbar-toggler {
+    margin-right: -300px;
+  }
+
   /*============ TOP NAVBAR ==============*/
+  .navbar-dark {
+    display: none;
+  }
   /*===========BOTTOM NAVBAR =============*/
+  .navbar-light {
+    margin: 0;
+  }
+
+  .navbar-toggler {
+    background: yellow;
+  }
   /*============= CAROUSEL ===============*/
+  .carousel-item {
+    height: 60vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-caption {
+    margin-bottom: 5%;
+    padding: 20px 150px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 1000;
+  }
+
+  .carousel-caption h3 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .carousel-caption p {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .btn-primary {
+    background: #051643;
+    border-color: transparent !important;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 8px 20px !important;
+    width: 110px;
+    text-align: center;
+    margin: 10px 5px;
+  }
+
+  .btn-primary:hover {
+    background: #051643;
+    color: gold;
+  }
   /*============== WELCOME ===============*/
+  #welcome h1 {
+    margin: 0px 0px -20px 50px;
+  }
+
+  #welcome h3.welcome-text {
+    font-size: 20px;
+    font-weight: 1000;
+    color: navy;
+    margin-left: 50px;
+    margin-bottom: 1rem;
+  }
+
+  #welcome .col-md-7 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  #welcome img {
+    margin: 15px 0px 20px -150px;
+    height: 390px;
+    width: 480px;
+  }
+
+  #welcome p {
+    font-size: 13px;
+    margin-left: 50px;
+  }
+
+  #welcome h3.welcome-text2 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: navy;
+    margin-left: 50px;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+  }
+
   /*============= SERVICES ===============*/
+  #services .card-body {
+    padding: 10px;
+    background-color: #051643;
+    width: auto;
+  }
+
+  #services .card {
+    height: 350px;
+    width: 250px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0px 2px 20px 0px rgba(110, 130, 208, 0.7);
+  }
+
+  #services .card img {
+    height: 50%;
+    width: auto;
+  }
+
+  #services .card .card-body h5 {
+    font-size: 20px;
+    color: gold;
+  }
+
+  #services .card .card-body p {
+    font-size: 12px;
+    color: #fff;
+  }
+
+  #services .card .card-body a {
+    font-size: 12px;
+    color: orange;
+  }
+
   /*============== VALUES ================*/
+
+  #values img {
+    margin-left: -50px;
+    height: 8rem;
+    width: 8rem;
+  }
+
+  #values h4 {
+    font-size: 18px;
+    color: navy;
+    font-weight: 600;
+  }
+
+  #values p {
+    font-size: 15px;
+  }
   /*============= PROCESS ================*/
+
+  #process {
+    height: 47vh;
+  }
+
+  #process .middle {
+    position: absolute;
+    top: 10%;
+    transform: translate(-50% -50%);
+  }
+
+  #process .card {
+    cursor: pointer;
+    width: 220px;
+    height: 330px;
+  }
+
+  #process .front,
+  #process .back {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform 0.6s linear;
+  }
+
+  #process .card .front img {
+    height: 30%;
+    width: 50%;
+    margin-top: 30%;
+  }
+
+  #process .card .front h4 {
+    font-size: 20px;
+    margin-top: 10%;
+    color: navy;
+    font-weight: 1000;
+  }
+
+  #process .card .back h4 {
+    font-size: 20px;
+    font-weight: 1000;
+  }
+
+  #process .front {
+    display: block;
+    transform: perspective(600px) rotateY(0deg);
+  }
+
+  #process .back {
+    background: #051643;
+    transform: perspective(600px) rotateY(180deg);
+  }
+
+  #process .back-content {
+    padding: 20px;
+    margin-top: 5%;
+    color: gold;
+  }
+
+  #process .back-content p {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  #process .card:hover > .front {
+    transform: perspective(600px) rotateY(-180deg);
+  }
+
+  #process .card:hover > .back {
+    transform: perspective(600px) rotateY(0deg);
+  }
+
   /*========== VAN JUMBOTRON =============*/
+
+  #message {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .road {
+    height: 60px;
+    width: 500%;
+    display: block;
+    background-image: url(/src/img/car/road.png);
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    right: 0px;
+    z-index: 1;
+    background-repeat: repeat;
+    animation: road 40s linear infinite;
+  }
+
+  .skyline {
+    height: 190px;
+    width: 500%;
+    display: block;
+    margin-bottom: 50px;
+    background-image: url(/src/img/car/skyline.png);
+    position: absolute;
+    top: 110px;
+    bottom: 0;
+    right: 0;
+    right: 0px;
+    background-repeat: repeat-x;
+    background-size: contain;
+    animation: skyline 50s linear infinite;
+  }
+
+  .van img {
+    width: 400px;
+    height: 210px;
+    left: 25%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+  }
+
+  .wheels {
+    left: 16%;
+    bottom: 32%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 5;
+  }
+
+  .wheels img {
+    width: 50px;
+    height: 50px;
+    animation: wheel 1.3s linear infinite;
+  }
+
+  .front-wheel {
+    left: 17px;
+    position: absolute;
+  }
+
+  .back-wheel {
+    position: absolute;
+    left: 207px;
+  }
+
+  P.lead {
+    color: #fff;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 230px;
+    font-size: 14px;
+  }
+
+  P.lead span {
+    font-weight: 1000;
+    font-size: 17px;
+    color: gold;
+  }
+
   /*========== TESTIMONIALS ==============*/
   /*============= CONTACT ================*/
+  #contact {
+    height: 60vh;
+    background-image: url(/src/img/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #contact .btn-outline-warning {
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 8px 10px !important;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    margin-left: 470px;
+  }
   /*============== FAQS ==================*/
   /*============= FOOTER =================*/
+  footer {
+    height: 45vh;
+  }
 }
 
 /* Devices under 576px (sm) */
