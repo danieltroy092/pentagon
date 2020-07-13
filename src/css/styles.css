@@ -1828,7 +1828,72 @@ footer .footer-social-icons ul li a i:hover {
 
   /*============= FOOTER =================*/
   footer {
-    height: 45vh;
+    height: 50vh;
+    background-color: #232b2b;
+    padding: 20px;
+    margin: 0;
+    padding: 30px;
+  }
+
+  footer .col-12 {
+    padding: 0%;
+    margin: 20px 0;
+  }
+
+  footer h6 {
+    color: gold;
+  }
+
+  p.social-text {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  footer .contact-item {
+    color: gold;
+    margin-left: 5px;
+  }
+
+  footer .contact-item p {
+    font-size: 13px;
+    font-weight: 200;
+    color: #fff;
+  }
+
+  footer .contact-item .icon i span {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 5px;
+  }
+
+  footer .quick-links ul {
+    margin-left: 10px;
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  footer .quick-links ul li:hover {
+    color: gold;
+    cursor: pointer;
+  }
+
+  footer .col-md-4 iframe {
+    margin-top: 5px;
+  }
+
+  p.footer-text span {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  p.footer-text {
+    color: gold;
+    font-size: 14px;
+    margin-bottom: 0;
   }
 }
 
