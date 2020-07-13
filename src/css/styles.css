@@ -1803,7 +1803,7 @@ footer .footer-social-icons ul li a i:hover {
 
   /*============= CONTACT ================*/
   #contact {
-    height: 60vh;
+    height: 73vh;
     background-image: url(/src/img/contact.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1818,7 +1818,7 @@ footer .footer-social-icons ul li a i:hover {
     text-align: center;
     margin-top: 30px;
     margin-bottom: -10px;
-    margin-left: 470px;
+    margin-left: 285px;
   }
   /*============== FAQS ==================*/
   /*============= FOOTER =================*/
