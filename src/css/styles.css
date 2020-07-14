@@ -2045,16 +2045,24 @@ footer .footer-social-icons ul li a i:hover {
     background-repeat: no-repeat;
   }
 
+  #contact .col-lg-12 {
+    margin-top: -18px;
+  }
+
+  #contact input {
+    font-size: 12px;
+  }
+
   #contact .btn-outline-warning {
     font-size: 15px;
     font-weight: 800;
     border-radius: 10px;
     padding: 8px 10px !important;
-    width: 200px;
+    width: 130px;
     text-align: center;
     margin-top: 30px;
     margin-bottom: -10px;
-    margin-left: 285px;
+    margin-left: 230px;
   }
   /*============== FAQS ==================*/
 
