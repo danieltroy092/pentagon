@@ -2007,22 +2007,20 @@ footer .footer-social-icons ul li a i:hover {
   }
 
   /*============== VALUES ================*/
-
   #values img {
     height: 7rem;
     width: 7rem;
-    margin-top: -15px;
+    margin-top: 0px;
   }
 
   #values h4 {
     font-size: 18px;
     color: navy;
     font-weight: 600;
-    margin: 0px 0 5px -20px;
+    margin: 10px 0 5px 0px;
   }
 
   #values p {
-    margin-left: -20px;
     font-size: 14px;
   }
   /*============= PROCESS ================*/
@@ -2038,36 +2036,6 @@ footer .footer-social-icons ul li a i:hover {
   }
 
   /*========== TESTIMONIALS ==============*/
-
-  #testimonials {
-    padding: 30px 200px;
-    margin-left: 100px;
-  }
-
-  #testimonials .item {
-    margin-left: 130px;
-  }
-
-  #testimonials .single-testimonial {
-    padding-right: 50px;
-    padding-top: 25px;
-    width: 400px;
-  }
-
-  #testimonials .img-area {
-    left: 50%;
-    margin-left: -60px;
-    top: 55px;
-  }
-
-  #testimonials .testi-text {
-    margin-top: 40px;
-    padding: 40px 20px 40px 20px;
-  }
-
-  #testimonials .testi-text p {
-    font-size: 15px;
-  }
 
   /*============= CONTACT ================*/
   #contact {
