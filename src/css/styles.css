@@ -2067,7 +2067,11 @@ footer .footer-social-icons ul li a i:hover {
   /*============== FAQS ==================*/
 
   #faqs h6 {
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  #faqs .card .card-body p {
+    font-size: 13px;
   }
 
   /*============= FOOTER =================*/
