@@ -78,6 +78,7 @@ h1.section-title-heading {
   width: 100%;
   z-index: 10;
   max-width: 100%;
+  justify-content: right;
 }
 
 .navbar-brand img {
