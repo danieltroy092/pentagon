@@ -227,6 +227,7 @@ h1.section-title-heading {
 
 #welcome h3.welcome-text,
 #welcome h3.welcome-text2 {
+  font-weight: 800;
   color: navy;
   margin-bottom: 1rem;
 }
