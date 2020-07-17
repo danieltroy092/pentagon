@@ -43,6 +43,7 @@ h1.section-title-heading {
 
 .navbar-dark {
   background-color: #051643;
+  height: 2.9rem;
 }
 
 .navbar-dark .navbar-nav .nav-item .nav-link {
@@ -64,6 +65,57 @@ h1.section-title-heading {
   margin-right: 5px;
 }
 
+input[type='checkbox'] {
+  display: none;
+}
+
+#languageToggle {
+  position: relative;
+  display: block;
+  width: 140px;
+  height: 85px;
+  border: 10px solid gold;
+  background-color: #051643;
+  border-radius: 100px;
+  cursor: pointer;
+  transform: scale(0.4);
+  margin: 50px;
+}
+
+#toggle {
+  width: 100px;
+  height: 80px;
+  background-image: url(/src/img/toggle.png);
+  background-size: cover;
+  position: relative;
+  border: 10px solid gold;
+  top: -5px;
+  left: -5px;
+  border-radius: 290px;
+  transition: 0.4s ease left, 0.4s ease background-position;
+  z-index: 2;
+}
+
+#english,
+#cymraeg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #051643;
+  margin-left: 160px;
+  z-index: 1;
+}
+
+#cymraeg {
+  margin-left: 15px;
+}
+
+#lol-checkbox:checked + #languageToggle #toggle {
+  left: 35px;
+  background-position: -230px 0;
+}
+
+/*=================================================*/
 .navbar-nav a {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
@@ -1232,7 +1284,11 @@ footer .footer-social-icons ul li a i:hover {
   }
 
   .navbar-light .navbar-toggler {
-    margin-right: -300px;
+    margin-right: -200px;
+  }
+
+  .navbar-collapse .navbar-nav {
+    background-color: #051643;
   }
 
   /*============ TOP NAVBAR ==============*/
