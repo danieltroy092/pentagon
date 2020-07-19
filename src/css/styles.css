@@ -86,12 +86,6 @@ h1.section-title-heading {
 }
 
 /*=================================================*/
-.navbar-nav a {
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
 
 .navbar-light {
   position: absolute;
@@ -117,6 +111,23 @@ h1.section-title-heading {
   letter-spacing: 2px;
 }
 
+.navbar-nav a,
+.navbar-nav a p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link p,
+.navbar-nav a.nav-link.dropdown-toggle.tn-service {
+}
+
+.navbar-nav li.dropdown {
+  color: red;
+}
+
 .navbar-light .navbar-brand:hover {
   color: gold;
 }
@@ -133,7 +144,8 @@ h1.section-title-heading {
   color: #fff;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link p:hover {
   color: gold;
 }
 
