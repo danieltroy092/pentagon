@@ -46,15 +46,23 @@ h1.section-title-heading {
   height: 2.9rem;
 }
 
-.navbar-dark .navbar-nav .nav-item .nav-link {
-  font-size: 13px;
+.navbar-dark .navbar-nav .nav-item .nav-link,
+.navbar-dark .navbar-nav .nav-item .nav-link p {
+  margin-top: 7px;
+  display: inline-block;
+  font-size: 14px;
   color: gold;
 }
 
 .navbar-dark .navbar-nav .nav-item .nav-link:hover {
   background-color: gold;
+  height: 2.6rem;
   color: #051643;
   transition: ease-out 0.7s;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link p:hover {
+  color: #051643;
 }
 
 .navbar-dark ul li {
@@ -63,56 +71,6 @@ h1.section-title-heading {
 
 .navbar-dark ul li a i {
   margin-right: 5px;
-}
-
-input[type='checkbox'] {
-  display: none;
-}
-
-#languageToggle {
-  position: relative;
-  display: block;
-  width: 140px;
-  height: 85px;
-  border: 10px solid gold;
-  background-color: #051643;
-  border-radius: 100px;
-  cursor: pointer;
-  transform: scale(0.4);
-  margin: 50px;
-}
-
-#toggle {
-  width: 100px;
-  height: 80px;
-  background-image: url(/src/img/toggle.png);
-  background-size: cover;
-  position: relative;
-  border: 10px solid gold;
-  top: -5px;
-  left: -5px;
-  border-radius: 290px;
-  transition: 0.4s ease left, 0.4s ease background-position;
-  z-index: 2;
-}
-
-#english,
-#cymraeg {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #051643;
-  margin-left: 160px;
-  z-index: 1;
-}
-
-#cymraeg {
-  margin-left: 15px;
-}
-
-#lol-checkbox:checked + #languageToggle #toggle {
-  left: 35px;
-  background-position: -230px 0;
 }
 
 /*=================================================*/
