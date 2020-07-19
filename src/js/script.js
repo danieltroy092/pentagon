@@ -28,6 +28,11 @@ const sportsEl = document.querySelector('.sbSports');
 const bcEl = document.querySelector('.sbBuild');
 const retireEl = document.querySelector('.sbRetire');
 
+// business submenu
+const pubEl = document.querySelector('.sbPub');
+const keyEl = document.querySelector('.sbKey');
+const contEl = document.querySelector('.sbContent');
+
 link.forEach((el) => {
   el.addEventListener('click', () => {
     langEl.querySelector('.active').classList.remove('active');
@@ -60,6 +65,11 @@ link.forEach((el) => {
     sportsEl.textContent = data[attr].sbSports;
     bcEl.textContent = data[attr].sbBuild;
     retireEl.textContent = data[attr].sbRetire;
+
+    // business submenu
+    pubEl.textContent = data[attr].sbPub;
+    keyEl.textContent = data[attr].sbKey;
+    contEl.textContent = data[attr].sbContent;
   });
 });
 
@@ -83,6 +93,9 @@ let data = {
     sbSports: 'Sports Injury Protection',
     sbBuild: 'Building & Contents',
     sbRetire: 'Later Life & Funeral Planning',
+    sbPub: 'Public/Employers Liability',
+    sbKey: 'Relevant Life/Keyman',
+    sbContent: 'Buildings & Contents',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -103,6 +116,9 @@ let data = {
     sbSports: 'anaf chwaraeon',
     sbBuild: 'Adeilad a chynnwys',
     sbRetire: 'Ymddeol ac angladd',
+    sbPub: 'atebolrwydd cyhoeddus / cyflogwr',
+    sbKey: 'Bywyd Perthnasol',
+    sbContent: 'Adeilad a chynnwys',
   },
 };
 
