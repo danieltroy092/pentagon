@@ -1,8 +1,17 @@
 // LANGUAGE TOGGLE
 const langEl = document.querySelector('.langWrap');
 const link = document.querySelectorAll('a');
+
+//top navbar
 const callEl = document.querySelector('.tnCall');
 const quoteEl = document.querySelector('.tnQuote');
+
+//bottom navbar
+const homeEl = document.querySelector('.bnHome');
+const servicesEl = document.querySelector('.bnServices');
+const aboutEl = document.querySelector('.bnAbout');
+const newsEl = document.querySelector('.bnNews');
+const contactEl = document.querySelector('.bnContact');
 
 link.forEach((el) => {
   el.addEventListener('click', () => {
@@ -11,8 +20,16 @@ link.forEach((el) => {
 
     const attr = el.getAttribute('language');
 
+    //top navbar
     callEl.textContent = data[attr].tnCall;
     quoteEl.textContent = data[attr].tnQuote;
+
+    //bottom navbar
+    homeEl.textContent = data[attr].bnHome;
+    servicesEl.textContent = data[attr].bnServices;
+    aboutEl.textContent = data[attr].bnAbout;
+    newsEl.textContent = data[attr].bnNews;
+    contactEl.textContent = data[attr].bnContact;
   });
 });
 
