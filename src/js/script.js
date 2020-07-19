@@ -17,6 +17,17 @@ const contactEl = document.querySelector('.bnContact');
 const persEl = document.querySelector('.ddPersonal');
 const busiEl = document.querySelector('.ddBusiness');
 
+// personal submenu
+const lifeEl = document.querySelector('.sbLife');
+const incomeEl = document.querySelector('.sbIncome');
+const critEl = document.querySelector('.sbCritical');
+const mortgageEl = document.querySelector('.sbMortgage');
+const famEl = document.querySelector('.sbFamily');
+const healthEl = document.querySelector('.sbHealth');
+const sportsEl = document.querySelector('.sbSports');
+const bcEl = document.querySelector('.sbBuild');
+const retireEl = document.querySelector('.sbRetire');
+
 link.forEach((el) => {
   el.addEventListener('click', () => {
     langEl.querySelector('.active').classList.remove('active');
@@ -38,6 +49,17 @@ link.forEach((el) => {
     //dropdown
     persEl.textContent = data[attr].ddPersonal;
     busiEl.textContent = data[attr].ddBusiness;
+
+    //personal submenu
+    lifeEl.textContent = data[attr].sbLife;
+    incomeEl.textContent = data[attr].sbIncome;
+    critEl.textContent = data[attr].sbCritical;
+    mortgageEl.textContent = data[attr].sbMortgage;
+    famEl.textContent = data[attr].sbFamily;
+    healthEl.textContent = data[attr].sbHealth;
+    sportsEl.textContent = data[attr].sbSports;
+    bcEl.textContent = data[attr].sbBuild;
+    retireEl.textContent = data[attr].sbRetire;
   });
 });
 
@@ -52,6 +74,15 @@ let data = {
     bnContact: 'Contact',
     ddPersonal: 'Personal',
     ddBusiness: 'Business',
+    sbLife: 'Life Insurance',
+    sbIncome: 'Income Protection',
+    sbCritical: 'Critical Care',
+    sbMortgage: 'Mortgage Protection',
+    sbFamily: 'Family Income Benefit',
+    sbHealth: 'Private Healthcare',
+    sbSports: 'Sports Injury Protection',
+    sbBuild: 'Building & Contents',
+    sbRetire: 'Later Life & Funeral Planning',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -63,6 +94,15 @@ let data = {
     bnContact: 'Cyswllt',
     ddPersonal: 'Personol',
     ddBusiness: 'Busnesau',
+    sbLife: 'yswiriant bywyd',
+    sbIncome: 'amddiffyn incwm',
+    sbCritical: 'gofal critigol',
+    sbMortgage: 'amddiffyn morgais',
+    sbFamily: 'budd-dal incwm teulu',
+    sbHealth: 'gofal iechyd preifat',
+    sbSports: 'anaf chwaraeon',
+    sbBuild: 'Adeilad a chynnwys',
+    sbRetire: 'Ymddeol ac angladd',
   },
 };
 
