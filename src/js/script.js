@@ -33,13 +33,24 @@ const pubEl = document.querySelector('.sbPub');
 const keyEl = document.querySelector('.sbKey');
 const contEl = document.querySelector('.sbContent');
 
+// carousel
+const oneEl = document.querySelector('.carOne');
+const subOneEl = document.querySelector('.carSubOne');
+const twoEl = document.querySelector('.carTwo');
+const threeEl = document.querySelector('.carThree');
+const fourEl = document.querySelector('.carFour');
+const subFourEl = document.querySelector('.carSubFour');
+
+// language toggle [remove switch active class onClick]
 link.forEach((el) => {
   el.addEventListener('click', () => {
     langEl.querySelector('.active').classList.remove('active');
     el.classList.add('active');
 
+    // select attribute
     const attr = el.getAttribute('language');
 
+    // get info from data variable
     //top navbar
     callEl.textContent = data[attr].tnCall;
     quoteEl.textContent = data[attr].tnQuote;
@@ -70,6 +81,14 @@ link.forEach((el) => {
     pubEl.textContent = data[attr].sbPub;
     keyEl.textContent = data[attr].sbKey;
     contEl.textContent = data[attr].sbContent;
+
+    // carousel
+    oneEl.textContent = data[attr].carOne;
+    subOneEl.textContent = data[attr].carSubOne;
+    twoEl.textContent = data[attr].carTwo;
+    threeEl.textContent = data[attr].carThree;
+    fourEl.textContent = data[attr].carFour;
+    subFourEl.textContent = data[attr].carSubFour;
   });
 });
 
@@ -96,6 +115,12 @@ let data = {
     sbPub: 'Public/Employers Liability',
     sbKey: 'Relevant Life/Keyman',
     sbContent: 'Buildings & Contents',
+    carOne: 'Welcome',
+    carSubOne: 'Pentagon Finance',
+    carTwo: 'Home Sweet Home',
+    carThree: 'Proudly supporting sport in Wales',
+    carFour: 'Health & Wellbeing',
+    carSubFour: 'Protecting what matters most.',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -119,6 +144,12 @@ let data = {
     sbPub: 'atebolrwydd cyhoeddus / cyflogwr',
     sbKey: 'Bywyd Perthnasol',
     sbContent: 'Adeilad a chynnwys',
+    carOne: 'Croeso',
+    carSubOne: 'Cyllid Pentagon',
+    carTwo: 'cartref melys cartref',
+    carThree: 'Cefnogi chwaraeon mewn cymru yn falch',
+    carFour: 'iechyd a lles',
+    carSubFour: 'Amddiffyn yr hyn sydd bwysicaf.',
   },
 };
 
