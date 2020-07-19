@@ -46,6 +46,10 @@ h1.section-title-heading {
   height: 2.9rem;
 }
 
+.navbar-dark .navbar-nav .nav-item .langWrap {
+  margin-left: 10px;
+}
+
 .navbar-dark .navbar-nav .nav-item .langWrap a img {
   opacity: 0.5;
 }
