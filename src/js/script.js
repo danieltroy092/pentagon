@@ -40,6 +40,13 @@ const twoEl = document.querySelector('.carTwo');
 const threeEl = document.querySelector('.carThree');
 const fourEl = document.querySelector('.carFour');
 const subFourEl = document.querySelector('.carSubFour');
+const carAboutEl = document.querySelector('.carAbout');
+const carLearnOneEl = document.querySelector('.carLearnOne');
+const carLearnTwoEl = document.querySelector('.carLearnTwo');
+const carLearnThreeEl = document.querySelector('.carLearnThree');
+const carTextOneEl = document.querySelector('.carTextOne');
+const carTextTwoEl = document.querySelector('.carTextTwo');
+const carTextThreeEl = document.querySelector('.carTextThree');
 
 // language toggle [remove switch active class onClick]
 link.forEach((el) => {
@@ -89,6 +96,13 @@ link.forEach((el) => {
     threeEl.textContent = data[attr].carThree;
     fourEl.textContent = data[attr].carFour;
     subFourEl.textContent = data[attr].carSubFour;
+    carAboutEl.textContent = data[attr].carAbout;
+    carLearnOneEl.textContent = data[attr].carLearnOne;
+    carLearnTwoEl.textContent = data[attr].carLearnTwo;
+    carLearnThreeEl.textContent = data[attr].carLearnThree;
+    carTextOneEl.textContent = data[attr].carTextOne;
+    carTextTwoEl.textContent = data[attr].carTextTwo;
+    carTextThreeEl.textContent = data[attr].carTextThree;
   });
 });
 
@@ -121,6 +135,16 @@ let data = {
     carThree: 'Proudly supporting sport in Wales',
     carFour: 'Health & Wellbeing',
     carSubFour: 'Protecting what matters most.',
+    carAbout: 'About Us',
+    carLearnOne: 'Learn More',
+    carLearnTwo: 'Learn More',
+    carLearnThree: 'Learn More',
+    carTextOne:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi delectus ad, animi deserunt saepe, fugit, similique quas voluptate ducimus eos tempore atque itaque ratione. Quibusdam?',
+    carTextTwo:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi delectus ad, animi deserunt saepe, fugit, similique quas voluptate ducimus eos tempore atque itaque ratione. Quibusdam?',
+    carTextThree:
+      'Our reviews, advice and services are 100% free of charge...<br />...and always will be.',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -150,6 +174,16 @@ let data = {
     carThree: 'Cefnogi chwaraeon mewn cymru yn falch',
     carFour: 'iechyd a lles',
     carSubFour: 'Amddiffyn yr hyn sydd bwysicaf.',
+    carAbout: 'Amdanom Ni',
+    carLearnOne: 'Dysgu mwy',
+    carLearnTwo: 'Dysgu mwy',
+    carLearnThree: 'Dysgu mwy',
+    carTextOne:
+      'Mor hyfryd annhebyg i fyny trwy gysylltiad heb ei gadw yn aml. Neu gwnewch hynny mewn ystafell uchel â thâl. Fe ddylech chi gefnder ar y cinio. Roedd chwe maenor yn swil a thair wal yn sefyll ar eu traed.',
+    carTextTwo:
+      'Mor hyfryd annhebyg i fyny trwy gysylltiad heb ei gadw yn aml. Neu gwnewch hynny mewn ystafell uchel â thâl. Fe ddylech chi gefnder ar y cinio. Roedd chwe maenor yn swil a thair wal yn sefyll ar eu traed.',
+    carTextThree:
+      'Mae ein hadolygiad, ein cyngor an gwasanaethau 100% yn rhad ac am ddim... a bydd bob amser.',
   },
 };
 
