@@ -120,10 +120,6 @@ h1.section-title-heading {
   font-weight: bold;
 }
 
-.navbar-nav .nav-item .nav-link p,
-.navbar-nav a.nav-link.dropdown-toggle.tn-service {
-}
-
 .navbar-nav li.dropdown {
   color: red;
 }
@@ -132,10 +128,10 @@ h1.section-title-heading {
   color: gold;
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
+.navbar-light .navbar-nav .active > .nav-link p,
+.navbar-light .navbar-nav .nav-link.active p,
+.navbar-light .navbar-nav .nav-link.show p,
+.navbar-light .navbar-nav .show > .nav-link p {
   color: gold;
 }
 
