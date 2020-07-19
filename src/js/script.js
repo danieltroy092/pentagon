@@ -13,6 +13,10 @@ const aboutEl = document.querySelector('.bnAbout');
 const newsEl = document.querySelector('.bnNews');
 const contactEl = document.querySelector('.bnContact');
 
+// dropdown
+const persEl = document.querySelector('.ddPersonal');
+const busiEl = document.querySelector('.ddBusiness');
+
 link.forEach((el) => {
   el.addEventListener('click', () => {
     langEl.querySelector('.active').classList.remove('active');
@@ -30,6 +34,10 @@ link.forEach((el) => {
     aboutEl.textContent = data[attr].bnAbout;
     newsEl.textContent = data[attr].bnNews;
     contactEl.textContent = data[attr].bnContact;
+
+    //dropdown
+    persEl.textContent = data[attr].ddPersonal;
+    busiEl.textContent = data[attr].ddBusiness;
   });
 });
 
@@ -42,6 +50,8 @@ let data = {
     bnAbout: 'About',
     bnNews: 'News',
     bnContact: 'Contact',
+    ddPersonal: 'Personal',
+    ddBusiness: 'Business',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -51,6 +61,8 @@ let data = {
     bnAbout: 'Amdanom ni',
     bnNews: 'Newydd',
     bnContact: 'Cyswllt',
+    ddPersonal: 'Personol',
+    ddBusiness: 'Busnesau',
   },
 };
 
