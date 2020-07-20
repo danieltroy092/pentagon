@@ -109,6 +109,16 @@ const ftCallEl = document.querySelector('.ftCall');
 const ftAddEl = document.querySelector('.ftAdd');
 const ftHrsEl = document.querySelector('.ftHrs');
 
+// footer - quick links
+const ftOneEl = document.querySelector('.ftOne');
+const ftTwoEl = document.querySelector('.ftTwo');
+const ftThreeEl = document.querySelector('.ftThree');
+const ftFourEl = document.querySelector('.ftFour');
+const ftFiveEl = document.querySelector('.ftFive');
+const ftSixEl = document.querySelector('.ftSix');
+const ftSvnEl = document.querySelector('.ftSvn');
+const ftEghtEl = document.querySelector('.ftEght');
+
 //============================================================//
 
 // language toggle [switch active class onClick]
@@ -227,6 +237,16 @@ link.forEach((el) => {
     ftCallEl.textContent = data[attr].ftCall;
     ftAddEl.textContent = data[attr].ftAdd;
     ftHrsEl.textContent = data[attr].ftHrs;
+
+    // footer - quick links
+    ftOneEl.textContent = data[attr].ftOne;
+    ftTwoEl.textContent = data[attr].ftTwo;
+    ftThreeEl.textContent = data[attr].ftThree;
+    ftFourEl.textContent = data[attr].ftFour;
+    ftFiveEl.textContent = data[attr].ftFive;
+    ftSixEl.textContent = data[attr].ftSix;
+    ftSvnEl.textContent = data[attr].ftSvn;
+    ftEghtEl.textContent = data[attr].ftEght;
   });
 });
 
@@ -319,6 +339,14 @@ let data = {
     ftCall: 'Call us on',
     ftAdd: 'Address',
     ftHrs: 'Opening Hours',
+    ftOne: 'About',
+    ftTwo: 'Contact',
+    ftThree: 'Careers',
+    ftFour: 'COVID-19 update',
+    ftFive: 'Accessibility',
+    ftSix: 'Privacy',
+    ftSvn: 'Terms & Conditions',
+    ftEght: 'Sitemap',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -408,6 +436,14 @@ let data = {
     ftCall: 'Ffoniwch ni ymlaen',
     ftAdd: 'Cyfeiriad',
     ftHrs: 'Oriau Agor',
+    ftOne: 'Amdanom ni',
+    ftTwo: 'Cysylltwch',
+    ftThree: 'Gyrfaoedd',
+    ftFour: 'Diweddaru COVID-19',
+    ftFive: 'Hygyrchedd',
+    ftSix: 'Preifatrwydd',
+    ftSvn: 'Telerau ac Amodau',
+    ftEght: 'Map o wefan',
   },
 };
 
