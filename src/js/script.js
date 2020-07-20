@@ -95,6 +95,17 @@ const tesTitleEl = document.querySelector('.tesTitle');
 const conTitleEl = document.querySelector('.conTitle');
 const conBtnEl = document.querySelector('.conBtn');
 
+// faq section
+const faqTitleEl = document.querySelector('.faqTitle');
+const qOneEl = document.querySelector('.qOne');
+const qTwoEl = document.querySelector('.qTwo');
+const qThreeEl = document.querySelector('.qThree');
+const qFourEl = document.querySelector('.qFour');
+const qFiveEl = document.querySelector('.qFive');
+const qSixEl = document.querySelector('.qSix');
+
+//============================================================//
+
 // language toggle [switch active class onClick]
 link.forEach((el) => {
   el.addEventListener('click', () => {
@@ -197,6 +208,15 @@ link.forEach((el) => {
     // contact section
     conTitleEl.textContent = data[attr].conTitle;
     conBtnEl.textContent = data[attr].conBtn;
+
+    // faq section
+    faqTitleEl.textContent = data[attr].faqTitle;
+    qOneEl.textContent = data[attr].qOne;
+    qTwoEl.textContent = data[attr].qTwo;
+    qThreeEl.textContent = data[attr].qThree;
+    qFourEl.textContent = data[attr].qFour;
+    qFiveEl.textContent = data[attr].qFive;
+    qSixEl.textContent = data[attr].qSix;
   });
 });
 
@@ -278,6 +298,14 @@ let data = {
     tesTitle: 'What our clients say...',
     conTitle: 'Ready to talk?',
     conBtn: 'Send Message',
+    faqTitle: 'Frequently Asked Questions',
+    qOne: 'Can I save a quote and come back at a later date?',
+    qTwo: 'How will I know if my claim is covered by my policy?',
+    qThree: 'Should I bother with Life insurance & what does it cover?',
+    qFour: 'What are the different types of business insurance?',
+    qFive: 'Can I cancel or change my policy at any time?',
+    qSix:
+      'What are the different ways I can pay? and can I do them interchangeably?',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -356,6 +384,14 @@ let data = {
     tesTitle: 'Beth mae ein cleientiaid yn ei ddweud...',
     conTitle: 'Yn barod i siarad?',
     conBtn: 'Anfon Neges',
+    faqTitle: 'Cwestiynau Cyffredin',
+    qOne: 'A allaf arbed dyfynbris a dod yn ôl yn nes ymlaen?',
+    qTwo: 'Sut y byddaf yn gwybod a yw fy nghais yn dod o dan fy mholisi?',
+    qThree:
+      'A ddylwn i drafferthu gydag yswiriant Bywyd a beth maen ei gynnwys?',
+    qFour: 'Beth ywr gwahanol fathau o yswiriant busnes?',
+    qFive: 'A allaf ganslo neu newid fy mholisi ar unrhyw adeg?',
+    qSix: 'Beth ywr gwahanol ffyrdd y gallaf dalu?',
   },
 };
 
