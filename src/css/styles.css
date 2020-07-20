@@ -500,18 +500,25 @@ h1.section-title-heading {
   }
 }
 
+.jumbotext {
+  display: block;
+}
+
+p.tag {
+  font-size: 17px;
+  font-weight: 1000;
+  color: gold;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 230px;
+}
+
 P.lead {
+  font-size: 15px;
   color: #fff;
   position: absolute;
   margin-left: 800px;
-  margin-top: 225px;
-  font-size: 15px;
-}
-
-P.lead span {
-  font-weight: 1000;
-  font-size: 20px;
-  color: gold;
+  margin-top: 255px;
 }
 
 /*============= TESTIMONIES ================*/
@@ -1064,18 +1071,21 @@ footer .footer-social-icons ul li a i:hover {
     left: 195px;
   }
 
+  p.tag {
+    font-size: 14px;
+    font-weight: 1000;
+    color: gold;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 230px;
+  }
+
   P.lead {
+    font-size: 12px;
     color: #fff;
     position: absolute;
     margin-left: 480px;
     margin-top: 205px;
-    font-size: 12px;
-  }
-
-  P.lead span {
-    font-weight: 1000;
-    font-size: 14px;
-    color: gold;
   }
 
   /*========== TESTIMONIALS ==============*/
@@ -1585,7 +1595,9 @@ footer .footer-social-icons ul li a i:hover {
     font-size: 14px;
   }
 
-  P.lead span {
+  p.tag {
+    margin-left: 600px;
+    margin-top: 230px;
     font-weight: 1000;
     font-size: 17px;
     color: gold;

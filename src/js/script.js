@@ -84,6 +84,10 @@ const proOneBackEl = document.querySelector('.proOneBack');
 const proTwoBackEl = document.querySelector('.proTwoBack');
 const proThreeBackEl = document.querySelector('.proThreeBack');
 
+// jumbotron
+const leadEl = document.querySelector('.lead');
+const tagEl = document.querySelector('.tag');
+
 // language toggle [switch active class onClick]
 link.forEach((el) => {
   el.addEventListener('click', () => {
@@ -175,6 +179,10 @@ link.forEach((el) => {
     proOneBackEl.textContent = data[attr].proOneBack;
     proTwoBackEl.textContent = data[attr].proTwoBack;
     proThreeBackEl.textContent = data[attr].proThreeBack;
+
+    // jumbotron
+    leadEl.textContent = data[attr].lead;
+    tagEl.textContent = data[attr].tag;
   });
 });
 
@@ -250,6 +258,9 @@ let data = {
     proOneBack: 'Free Consultation',
     proTwoBack: 'Recommendation',
     proThreeBack: 'Aftercare',
+    tag: 'We also come to you!',
+    lead:
+      'Whilst our store in Newport city centre [currently closed due to COVID-19/Corona virus] is accessible throughout the week. We also have professional experienced advisors that can visit you at your home or place of business.',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -321,6 +332,10 @@ let data = {
     proOneBack: 'Ymgynghoriad Am Ddim',
     proTwoBack: 'Argymhelliad',
     proThreeBack: 'Ôl-ofal',
+    leadTwo: 'Rydyn nin dod atoch chi hefyd!',
+    tag: 'Rydyn nin dod atoch chi hefyd!',
+    lead:
+      'Tra bod ein siop yng nghanol dinas Casnewydd [ar gau ar hyn o bryd oherwydd firws COVID-19 / feirws Corona] yn hygyrch trwy gydol yr wythnos. Mae gennym hefyd gynghorwyr profiadol proffesiynol a all ymweld â chi yn eich cartref neuch man busnes.',
   },
 };
 
