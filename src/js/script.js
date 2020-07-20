@@ -91,6 +91,10 @@ const tagEl = document.querySelector('.tag');
 // testimonials
 const tesTitleEl = document.querySelector('.tesTitle');
 
+// contact section
+const conTitleEl = document.querySelector('.conTitle');
+const conBtnEl = document.querySelector('.conBtn');
+
 // language toggle [switch active class onClick]
 link.forEach((el) => {
   el.addEventListener('click', () => {
@@ -189,6 +193,10 @@ link.forEach((el) => {
 
     // testimonials
     tesTitleEl.textContent = data[attr].tesTitle;
+
+    // contact section
+    conTitleEl.textContent = data[attr].conTitle;
+    conBtnEl.textContent = data[attr].conBtn;
   });
 });
 
@@ -268,6 +276,8 @@ let data = {
     lead:
       'Whilst our store in Newport city centre [currently closed due to COVID-19/Corona virus] is accessible throughout the week. We also have professional experienced advisors that can visit you at your home or place of business.',
     tesTitle: 'What our clients say...',
+    conTitle: 'Ready to talk?',
+    conBtn: 'Send Message',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -344,6 +354,8 @@ let data = {
     lead:
       'Tra bod ein siop yng nghanol dinas Casnewydd [ar gau ar hyn o bryd oherwydd firws COVID-19 / feirws Corona] yn hygyrch trwy gydol yr wythnos. Mae gennym hefyd gynghorwyr profiadol proffesiynol a all ymweld â chi yn eich cartref neuch man busnes.',
     tesTitle: 'Beth mae ein cleientiaid yn ei ddweud...',
+    conTitle: 'Yn barod i siarad?',
+    conBtn: 'Anfon Neges',
   },
 };
 
