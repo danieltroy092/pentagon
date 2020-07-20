@@ -75,6 +75,8 @@ const valTextTwoEl = document.querySelector('.valTextTwo');
 const valTextThreeEl = document.querySelector('.valTextThree');
 const valTextFourEl = document.querySelector('.valTextFour');
 
+// process section
+
 // language toggle [switch active class onClick]
 link.forEach((el) => {
   el.addEventListener('click', () => {
@@ -157,6 +159,8 @@ link.forEach((el) => {
     valTextTwoEl.textContent = data[attr].valTextTwo;
     valTextThreeEl.textContent = data[attr].valTextThree;
     valTextFourEl.textContent = data[attr].valTextFour;
+
+    // process section
   });
 });
 
