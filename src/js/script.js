@@ -53,6 +53,17 @@ const intTitleEl = document.querySelector('.intTitle');
 const intSubOneEl = document.querySelector('.intSubOne');
 const intSubTwoEl = document.querySelector('.intSubTwo');
 
+// services section
+const serTitleEl = document.querySelector('.serTitle');
+const serOneEl = document.querySelector('.serOne');
+const serTwoEl = document.querySelector('.serTwo');
+const serThreeEl = document.querySelector('.serThree');
+const serFourEl = document.querySelector('.serFour');
+const serLinkOneEl = document.querySelector('.serLinkOne');
+const serLinkTwoEl = document.querySelector('.serLinkTwo');
+const serLinkThreeEl = document.querySelector('.serLinkThree');
+const serLinkFourEl = document.querySelector('.serLinkFour');
+
 // language toggle [switch active class onClick]
 link.forEach((el) => {
   el.addEventListener('click', () => {
@@ -113,6 +124,17 @@ link.forEach((el) => {
     intTitleEl.textContent = data[attr].intTitle;
     intSubOneEl.textContent = data[attr].intSubOne;
     intSubTwoEl.textContent = data[attr].intSubTwo;
+
+    // services section
+    serTitleEl.textContent = data[attr].serTitle;
+    serOneEl.textContent = data[attr].serOne;
+    serTwoEl.textContent = data[attr].serTwo;
+    serThreeEl.textContent = data[attr].serThree;
+    serFourEl.textContent = data[attr].serFour;
+    serLinkOneEl.textContent = data[attr].serLinkOne;
+    serLinkTwoEl.textContent = data[attr].serLinkTwo;
+    serLinkThreeEl.textContent = data[attr].serLinkThree;
+    serLinkFourEl.textContent = data[attr].serLinkFour;
   });
 });
 
@@ -159,6 +181,15 @@ let data = {
     intTitle: 'Welcome',
     intSubOne: 'The correct advice',
     intSubTwo: 'Making it easy',
+    serTitle: 'Our Services',
+    serOne: 'Life & Health Insurance',
+    serLinkOne: 'Read More >',
+    serTwo: 'Business Insurance',
+    serLinkTwo: 'Read More >',
+    serThree: 'Sports Injury Protection',
+    serLinkThree: 'Read More >',
+    serFour: 'Personal Insurance',
+    serLinkFour: 'Read More >',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -201,6 +232,15 @@ let data = {
     intTitle: 'Croeso',
     intSubOne: 'Y cyngor cywir',
     intSubTwo: 'Ei gwneud hin hawdd',
+    serTitle: 'Ein gwasanaethau',
+    serOne: 'Bywyd ac Iechyd',
+    serLinkOne: 'Darllen mMy >',
+    serTwo: 'Yswiriant Busnes',
+    serLinkTwo: 'Darllen Mwy >',
+    serThree: 'Anaf Chwaraeon',
+    serLinkThree: 'Darllen Mwy >',
+    serFour: 'Yswiriant Personol',
+    serLinkFour: 'Darllen Mwy >',
   },
 };
 
