@@ -76,6 +76,13 @@ const valTextThreeEl = document.querySelector('.valTextThree');
 const valTextFourEl = document.querySelector('.valTextFour');
 
 // process section
+const proTitleEl = document.querySelector('.proTitle');
+const proOneFrontEl = document.querySelector('.proOneFront');
+const proTwoFrontEl = document.querySelector('.proTwoFront');
+const proThreeFrontEl = document.querySelector('.proThreeFront');
+const proOneBackEl = document.querySelector('.proOneBack');
+const proTwoBackEl = document.querySelector('.proTwoBack');
+const proThreeBackEl = document.querySelector('.proThreeBack');
 
 // language toggle [switch active class onClick]
 link.forEach((el) => {
@@ -161,6 +168,13 @@ link.forEach((el) => {
     valTextFourEl.textContent = data[attr].valTextFour;
 
     // process section
+    proTitleEl.textContent = data[attr].proTitle;
+    proOneFrontEl.textContent = data[attr].proOneFront;
+    proTwoFrontEl.textContent = data[attr].proTwoFront;
+    proThreeFrontEl.textContent = data[attr].proThreeFront;
+    proOneBackEl.textContent = data[attr].proOneBack;
+    proTwoBackEl.textContent = data[attr].proTwoBack;
+    proThreeBackEl.textContent = data[attr].proThreeBack;
   });
 });
 
