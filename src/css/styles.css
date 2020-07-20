@@ -639,7 +639,7 @@ P.lead {
 /*============= CONTACT ================*/
 
 #contact {
-  height: 50vh;
+  height: 55vh;
   background-image: url(/src/img/contact.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -752,7 +752,7 @@ P.lead {
 
 /*============= FOOTER ================*/
 footer {
-  height: 39vh;
+  height: 42vh;
   background-color: #232b2b;
   padding: 20px;
   margin: 0;
