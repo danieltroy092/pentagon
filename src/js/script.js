@@ -229,6 +229,13 @@ let data = {
       'We wont recommend a product that doesnt match your lifestyle. Policies pay out on facts!',
     valTextFour:
       'We promised to deliver the highest standards possible when it comes to our clients needs. Were here whenever you need us.',
+    proTitle: 'The process',
+    proOneFront: 'Free Consultation',
+    proTwoFront: 'Recommendation',
+    proThreeFront: 'Aftercare',
+    proOneBack: 'Free Consultation',
+    proTwoBack: 'Recommendation',
+    proThreeBack: 'Aftercare',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -293,6 +300,13 @@ let data = {
       'Ni fyddwn yn argymell cynnyrch nad ywn cyd-fynd âch ffordd o fyw. Mae polisïaun talu allan ar ffeithiau!',
     valTextFour:
       'Gwnaethom addo cyflawnir safonau uchaf posibl o ran anghenion ein cleientiaid. Rydyn ni yma pryd bynnag rydych chi ein hangen ni.',
+    proTitle: 'Y broses',
+    proOneFront: 'Ymgynghoriad Am Ddim',
+    proTwoFront: 'Argymhelliad',
+    proThreeFront: 'Ôl-ofal',
+    proOneBack: 'Ymgynghoriad Am Ddim',
+    proTwoBack: 'Argymhelliad',
+    proThreeBack: 'Ôl-ofal',
   },
 };
 
