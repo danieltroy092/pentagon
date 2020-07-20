@@ -104,6 +104,11 @@ const qFourEl = document.querySelector('.qFour');
 const qFiveEl = document.querySelector('.qFive');
 const qSixEl = document.querySelector('.qSix');
 
+// footer
+const ftCallEl = document.querySelector('.ftCall');
+const ftAddEl = document.querySelector('.ftAdd');
+const ftHrsEl = document.querySelector('.ftHrs');
+
 //============================================================//
 
 // language toggle [switch active class onClick]
@@ -217,6 +222,11 @@ link.forEach((el) => {
     qFourEl.textContent = data[attr].qFour;
     qFiveEl.textContent = data[attr].qFive;
     qSixEl.textContent = data[attr].qSix;
+
+    // footer
+    ftCallEl.textContent = data[attr].ftCall;
+    ftAddEl.textContent = data[attr].ftAdd;
+    ftHrsEl.textContent = data[attr].ftHrs;
   });
 });
 
@@ -306,6 +316,9 @@ let data = {
     qFive: 'Can I cancel or change my policy at any time?',
     qSix:
       'What are the different ways I can pay? and can I do them interchangeably?',
+    ftCall: 'Call us on',
+    ftAdd: 'Address',
+    ftHrs: 'Opening Hours',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -392,6 +405,9 @@ let data = {
     qFour: 'Beth ywr gwahanol fathau o yswiriant busnes?',
     qFive: 'A allaf ganslo neu newid fy mholisi ar unrhyw adeg?',
     qSix: 'Beth ywr gwahanol ffyrdd y gallaf dalu?',
+    ftCall: 'Ffoniwch ni ymlaen',
+    ftAdd: 'Cyfeiriad',
+    ftHrs: 'Oriau Agor',
   },
 };
 
