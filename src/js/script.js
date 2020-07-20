@@ -350,7 +350,7 @@ let data = {
     intSubTwo: 'Ei gwneud hin hawdd',
     serTitle: 'Ein gwasanaethau',
     serOne: 'Bywyd ac Iechyd',
-    serLinkOne: 'Darllen mMy >',
+    serLinkOne: 'Darllen Mwy >',
     serTwo: 'Yswiriant Busnes',
     serLinkTwo: 'Darllen Mwy >',
     serThree: 'Anaf Chwaraeon',
