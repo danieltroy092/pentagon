@@ -792,14 +792,18 @@ footer .contact-item .icon i span {
 }
 
 footer .quick-links ul {
+  margin-top: 2px;
   margin-left: 10px;
   list-style: none;
+}
+
+footer .quick-links ul a {
   color: #fff;
   font-size: 14px;
   line-height: 26px;
 }
 
-footer .quick-links ul li:hover {
+footer .quick-links ul li a:hover {
   color: gold;
   cursor: pointer;
 }
