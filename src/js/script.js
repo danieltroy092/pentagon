@@ -48,7 +48,12 @@ const carTextOneEl = document.querySelector('.carTextOne');
 const carTextTwoEl = document.querySelector('.carTextTwo');
 const carTextThreeEl = document.querySelector('.carTextThree');
 
-// language toggle [remove switch active class onClick]
+// welcome section
+const intTitleEl = document.querySelector('.intTitle');
+const intSubOneEl = document.querySelector('.intSubOne');
+const intSubTwoEl = document.querySelector('.intSubTwo');
+
+// language toggle [switch active class onClick]
 link.forEach((el) => {
   el.addEventListener('click', () => {
     langEl.querySelector('.active').classList.remove('active');
@@ -103,9 +108,15 @@ link.forEach((el) => {
     carTextOneEl.textContent = data[attr].carTextOne;
     carTextTwoEl.textContent = data[attr].carTextTwo;
     carTextThreeEl.textContent = data[attr].carTextThree;
+
+    // welcome section
+    intTitleEl.textContent = data[attr].intTitle;
+    intSubOneEl.textContent = data[attr].intSubOne;
+    intSubTwoEl.textContent = data[attr].intSubTwo;
   });
 });
 
+// translation data
 let data = {
   english: {
     tnCall: 'Call Now: [01633] 415414',
@@ -145,6 +156,9 @@ let data = {
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi delectus ad, animi deserunt saepe, fugit, similique quas voluptate ducimus eos tempore atque itaque ratione. Quibusdam?',
     carTextThree:
       'Our reviews, advice and services are 100% free of charge...<br />...and always will be.',
+    intTitle: 'Welcome',
+    intSubOne: 'The correct advice',
+    intSubTwo: 'Making it easy',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -184,6 +198,9 @@ let data = {
       'Mor hyfryd annhebyg i fyny trwy gysylltiad heb ei gadw yn aml. Neu gwnewch hynny mewn ystafell uchel â thâl. Fe ddylech chi gefnder ar y cinio. Roedd chwe maenor yn swil a thair wal yn sefyll ar eu traed.',
     carTextThree:
       'Mae ein hadolygiad, ein cyngor an gwasanaethau 100% yn rhad ac am ddim... a bydd bob amser.',
+    intTitle: 'Croeso',
+    intSubOne: 'Y cyngor cywir',
+    intSubTwo: 'Ei gwneud hin hawdd',
   },
 };
 
