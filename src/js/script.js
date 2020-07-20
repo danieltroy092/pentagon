@@ -64,6 +64,17 @@ const serLinkTwoEl = document.querySelector('.serLinkTwo');
 const serLinkThreeEl = document.querySelector('.serLinkThree');
 const serLinkFourEl = document.querySelector('.serLinkFour');
 
+// values section
+const valTitleEl = document.querySelector('.valTitle');
+const valOneEl = document.querySelector('.valOne');
+const valTwoEl = document.querySelector('.valTwo');
+const valThreeEl = document.querySelector('.valThree');
+const valFourEl = document.querySelector('.valFour');
+const valTextOneEl = document.querySelector('.valTextOne');
+const valTextTwoEl = document.querySelector('.valTextTwo');
+const valTextThreeEl = document.querySelector('.valTextThree');
+const valTextFourEl = document.querySelector('.valTextFour');
+
 // language toggle [switch active class onClick]
 link.forEach((el) => {
   el.addEventListener('click', () => {
@@ -135,6 +146,17 @@ link.forEach((el) => {
     serLinkTwoEl.textContent = data[attr].serLinkTwo;
     serLinkThreeEl.textContent = data[attr].serLinkThree;
     serLinkFourEl.textContent = data[attr].serLinkFour;
+
+    //values section
+    valTitleEl.textContent = data[attr].valTitle;
+    valOneEl.textContent = data[attr].valOne;
+    valTwoEl.textContent = data[attr].valTwo;
+    valThreeEl.textContent = data[attr].valThree;
+    valFourEl.textContent = data[attr].valFour;
+    valTextOneEl.textContent = data[attr].valTextOne;
+    valTextTwoEl.textContent = data[attr].valTextTwo;
+    valTextThreeEl.textContent = data[attr].valTextThree;
+    valTextFourEl.textContent = data[attr].valTextFour;
   });
 });
 
@@ -190,6 +212,19 @@ let data = {
     serLinkThree: 'Read More >',
     serFour: 'Personal Insurance',
     serLinkFour: 'Read More >',
+    valTitle: 'Our core values',
+    valOne: 'Trusted Providers',
+    valTwo: 'Affordability',
+    valThree: 'Ethical Business',
+    valFour: 'Aftercare',
+    valTextOne:
+      'We only use the very best providers U.K. has to offer; Peace of mind is key for everyone',
+    valTextTwo:
+      'We always take into account a clients budget. The strongest cover possible at the right price is what we recommend.',
+    valTextThree:
+      'We wont recommend a product that doesnt match your lifestyle. Policies pay out on facts!',
+    valTextFour:
+      'We promised to deliver the highest standards possible when it comes to our clients needs. Were here whenever you need us.',
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
@@ -241,6 +276,19 @@ let data = {
     serLinkThree: 'Darllen Mwy >',
     serFour: 'Yswiriant Personol',
     serLinkFour: 'Darllen Mwy >',
+    valTitle: 'Ein gwerthoedd craidd',
+    valOne: 'Darparwyr Dibynadwy',
+    valTwo: 'Fforddiadwyedd',
+    valThree: 'Busnes Moesegol',
+    valFour: 'Ôl-ofal',
+    valTextOne:
+      'Dim ond y darparwyr gorau oll sydd gan U.K. iw cynnig; Mae tawelwch meddwl yn allweddol i bawb',
+    valTextTwo:
+      'Rydym bob amser yn ystyried cyllideb cleientiaid. Yr yswiriant cryfaf syn bosibl am y pris iawn ywr hyn rydyn nin ei argymell.',
+    valTextThree:
+      'Ni fyddwn yn argymell cynnyrch nad ywn cyd-fynd âch ffordd o fyw. Mae polisïaun talu allan ar ffeithiau!',
+    valTextFour:
+      'Gwnaethom addo cyflawnir safonau uchaf posibl o ran anghenion ein cleientiaid. Rydyn ni yma pryd bynnag rydych chi ein hangen ni.',
   },
 };
 
