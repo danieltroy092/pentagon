@@ -254,7 +254,7 @@ link.forEach((el) => {
 let data = {
   english: {
     tnCall: 'Call Now: [01633] 415414',
-    tnQuote: 'Make a Quote',
+    tnQuote: 'Get a Quote',
     bnHome: 'Home',
     bnServices: 'Services',
     bnAbout: 'About',
@@ -350,7 +350,7 @@ let data = {
   },
   cymraeg: {
     tnCall: 'Galwch nawr: [01633] 415414',
-    tnQuote: 'Dyfynnwch Nawr',
+    tnQuote: 'Cael Dyfynbris',
     bnHome: 'Adref',
     bnServices: 'Gwasanaethau',
     bnAbout: 'Amdanom ni',
